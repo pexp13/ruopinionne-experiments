@@ -17,7 +17,8 @@ import numpy as np
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from ruop.data import load
-from ruop.prompt import build_prompt
+from ruop.parse import parse_answer
+from ruop.prompt import build_prompt, build_prompt_stage2
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--name", required=True)
@@ -29,6 +30,7 @@ ap.add_argument("--emb", default="sbert_large_nlu_ru")
 ap.add_argument("--random-shots", action="store_true")
 ap.add_argument("--limit", type=int, default=0)
 ap.add_argument("--temperature", type=float, default=0.1)
+ap.add_argument("--suggest", default="", help="вторая ступень: имена прогонов через запятую, чьи ответы идут в промпт")
 ap.add_argument("--concurrency", type=int, default=16)
 args = ap.parse_args()
 
@@ -51,6 +53,19 @@ def shots_for(i):
     return [pool[j] for j in top[::-1]]  # самое похожее — последним, ближе к целевому тексту
 
 
+suggest = {}
+for name in filter(None, args.suggest.split(",")):
+    for l in open(ROOT / "runs" / f"{name}.jsonl", encoding="utf-8"):
+        r = json.loads(l)
+        suggest.setdefault(r["sent_id"], []).append(repr(parse_answer(r["raw"])[0]))
+
+
+def prompt_for(i, row):
+    if suggest:
+        return build_prompt_stage2(row["text"], shots_for(i), suggest[row["sent_id"]])
+    return build_prompt(row["text"], shots_for(i))
+
+
 out_path = ROOT / "runs" / f"{args.name}.jsonl"
 out_path.parent.mkdir(exist_ok=True)
 done = set()
@@ -68,7 +83,7 @@ async def one(client, f, i, row):
     global cost
     body = {"model": args.model, "temperature": args.temperature, "top_p": 0.9, "max_tokens": 512,
             "usage": {"include": True},
-            "messages": [{"role": "user", "content": build_prompt(row["text"], shots_for(i))}]}
+            "messages": [{"role": "user", "content": prompt_for(i, row)}]}
     async with sem:
         for attempt in range(6):
             try:

@@ -27,3 +27,14 @@ def build_prompt(text, shots):
         parts.append(f"Текст: {s['text']}\nОтвет: {gold_answer(s)}")
     parts.append(f"Текст: {text}\nОтвет:")
     return "\n".join(parts)
+
+
+def build_prompt_stage2(text, shots, suggestions):
+    """Вторая ступень: к промпту добавлены ответы других моделей (строки-списки кортежей)."""
+    parts = [INSTRUCTION]
+    for s in shots:
+        parts.append(f"Текст: {s['text']}\nОтвет: {gold_answer(s)}")
+    parts.append(f"Текст, который нужно проанализировать:\n{text}")
+    parts.append("Ответы экспертов к этому тексту:\n" + "\n".join(suggestions))
+    parts.append("Ты можешь выбрать из этих ответов или ответить по-своему.\nТвой ответ:")
+    return "\n".join(parts)

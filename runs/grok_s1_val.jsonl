@@ -1,0 +1,422 @@
+{"sent_id": 13, "raw": "[]", "prompt_tokens": 1410, "completion_tokens": 218, "cost": 0.0021731, "provider": "xAI"}
+{"sent_id": 8, "raw": "[]", "prompt_tokens": 1018, "completion_tokens": 196, "cost": 0.0016281, "provider": "xAI"}
+{"sent_id": 14, "raw": "[]", "prompt_tokens": 1511, "completion_tokens": 243, "cost": 0.00236185, "provider": "xAI"}
+{"sent_id": 11, "raw": "[]", "prompt_tokens": 827, "completion_tokens": 234, "cost": 0.00148435, "provider": "xAI"}
+{"sent_id": 7, "raw": "[]", "prompt_tokens": 1290, "completion_tokens": 420, "cost": 0.0025281, "provider": "xAI"}
+{"sent_id": 12, "raw": "[]", "prompt_tokens": 1249, "completion_tokens": 469, "cost": 0.00259935, "provider": "xAI"}
+{"sent_id": 1, "raw": "[]", "prompt_tokens": 1189, "completion_tokens": 354, "cost": 0.00223685, "provider": "xAI"}
+{"sent_id": 0, "raw": "[]", "prompt_tokens": 1138, "completion_tokens": 426, "cost": 0.0023531, "provider": "xAI"}
+{"sent_id": 5, "raw": "[]", "prompt_tokens": 1283, "completion_tokens": 318, "cost": 0.00226435, "provider": "xAI"}
+{"sent_id": 9, "raw": "[]", "prompt_tokens": 833, "completion_tokens": 343, "cost": 0.00176435, "provider": "xAI"}
+{"sent_id": 16, "raw": "[]", "prompt_tokens": 876, "completion_tokens": 230, "cost": 0.0015356, "provider": "xAI"}
+{"sent_id": 15, "raw": "[]", "prompt_tokens": 930, "completion_tokens": 387, "cost": 0.0019956, "provider": "xAI"}
+{"sent_id": 18, "raw": "[]", "prompt_tokens": 902, "completion_tokens": 235, "cost": 0.0014462, "provider": "xAI"}
+{"sent_id": 4, "raw": "[]", "prompt_tokens": 851, "completion_tokens": 550, "cost": 0.00230435, "provider": "xAI"}
+{"sent_id": 6, "raw": "[]", "prompt_tokens": 976, "completion_tokens": 494, "cost": 0.0023206, "provider": "xAI"}
+{"sent_id": 10, "raw": "[['Дюссельдорфе', 'вязание', 'не считают вязание уделом только женщин', 'POS']]", "prompt_tokens": 1028, "completion_tokens": 774, "cost": 0.0030856, "provider": "xAI"}
+{"sent_id": 19, "raw": "[]", "prompt_tokens": 1309, "completion_tokens": 318, "cost": 0.00229685, "provider": "xAI"}
+{"sent_id": 3, "raw": "[]", "prompt_tokens": 982, "completion_tokens": 558, "cost": 0.0024881, "provider": "xAI"}
+{"sent_id": 27, "raw": "[]", "prompt_tokens": 1012, "completion_tokens": 276, "cost": 0.0018206, "provider": "xAI"}
+{"sent_id": 26, "raw": "[]", "prompt_tokens": 1118, "completion_tokens": 363, "cost": 0.0021706, "provider": "xAI"}
+{"sent_id": 20, "raw": "[]", "prompt_tokens": 1268, "completion_tokens": 373, "cost": 0.0023831, "provider": "xAI"}
+{"sent_id": 24, "raw": "[]", "prompt_tokens": 1600, "completion_tokens": 323, "cost": 0.0026731, "provider": "xAI"}
+{"sent_id": 25, "raw": "[]", "prompt_tokens": 1348, "completion_tokens": 284, "cost": 0.0021262, "provider": "xAI"}
+{"sent_id": 22, "raw": "[['AUTHOR', 'Yahoo!', 'Рыночная стоимость Yahoo! на момент закрытия торгов в пятницу составляла около $37,4 миллиарда', 'POS']]", "prompt_tokens": 958, "completion_tokens": 371, "cost": 0.0019906, "provider": "xAI"}
+{"sent_id": 2, "raw": "[]", "prompt_tokens": 1132, "completion_tokens": 737, "cost": 0.0031231, "provider": "xAI"}
+{"sent_id": 30, "raw": "[]", "prompt_tokens": 1225, "completion_tokens": 285, "cost": 0.00210935, "provider": "xAI"}
+{"sent_id": 28, "raw": "[]", "prompt_tokens": 1061, "completion_tokens": 284, "cost": 0.00176745, "provider": "xAI"}
+{"sent_id": 21, "raw": "[]", "prompt_tokens": 1650, "completion_tokens": 468, "cost": 0.0030981, "provider": "xAI"}
+{"sent_id": 23, "raw": "[]", "prompt_tokens": 825, "completion_tokens": 459, "cost": 0.00204435, "provider": "xAI"}
+{"sent_id": 31, "raw": "[]", "prompt_tokens": 1064, "completion_tokens": 262, "cost": 0.0017162, "provider": "xAI"}
+{"sent_id": 17, "raw": "[]", "prompt_tokens": 1797, "completion_tokens": 582, "cost": 0.00356685, "provider": "xAI"}
+{"sent_id": 33, "raw": "[]", "prompt_tokens": 735, "completion_tokens": 250, "cost": 0.00127495, "provider": "xAI"}
+{"sent_id": 34, "raw": "[]", "prompt_tokens": 1454, "completion_tokens": 221, "cost": 0.0021012, "provider": "xAI"}
+{"sent_id": 32, "raw": "[]", "prompt_tokens": 1366, "completion_tokens": 273, "cost": 0.0022556, "provider": "xAI"}
+{"sent_id": 35, "raw": "[]", "prompt_tokens": 729, "completion_tokens": 330, "cost": 0.00146745, "provider": "xAI"}
+{"sent_id": 39, "raw": "[]", "prompt_tokens": 1907, "completion_tokens": 354, "cost": 0.00299995, "provider": "xAI"}
+{"sent_id": 37, "raw": "[]", "prompt_tokens": 1215, "completion_tokens": 303, "cost": 0.00200745, "provider": "xAI"}
+{"sent_id": 41, "raw": "[]", "prompt_tokens": 1429, "completion_tokens": 342, "cost": 0.00237245, "provider": "xAI"}
+{"sent_id": 49, "raw": "[]", "prompt_tokens": 1367, "completion_tokens": 271, "cost": 0.00211745, "provider": "xAI"}
+{"sent_id": 42, "raw": "[]", "prompt_tokens": 1505, "completion_tokens": 387, "cost": 0.00257995, "provider": "xAI"}
+{"sent_id": 43, "raw": "[]", "prompt_tokens": 892, "completion_tokens": 290, "cost": 0.0015712, "provider": "xAI"}
+{"sent_id": 45, "raw": "[]", "prompt_tokens": 1233, "completion_tokens": 364, "cost": 0.00231685, "provider": "xAI"}
+{"sent_id": 46, "raw": "[]", "prompt_tokens": 1352, "completion_tokens": 334, "cost": 0.0023906, "provider": "xAI"}
+{"sent_id": 36, "raw": "[]", "prompt_tokens": 1034, "completion_tokens": 704, "cost": 0.0029181, "provider": "xAI"}
+{"sent_id": 44, "raw": "[]", "prompt_tokens": 929, "completion_tokens": 350, "cost": 0.00190185, "provider": "xAI"}
+{"sent_id": 47, "raw": "[]", "prompt_tokens": 1207, "completion_tokens": 334, "cost": 0.00220935, "provider": "xAI"}
+{"sent_id": 51, "raw": "[]", "prompt_tokens": 956, "completion_tokens": 232, "cost": 0.0015062, "provider": "xAI"}
+{"sent_id": 48, "raw": "[]", "prompt_tokens": 1448, "completion_tokens": 337, "cost": 0.0023837, "provider": "xAI"}
+{"sent_id": 53, "raw": "[]", "prompt_tokens": 1215, "completion_tokens": 271, "cost": 0.00206185, "provider": "xAI"}
+{"sent_id": 54, "raw": "[]", "prompt_tokens": 951, "completion_tokens": 361, "cost": 0.00182245, "provider": "xAI"}
+{"sent_id": 29, "raw": "[['NULL', 'кредитование предпринимателей, фрилансеров и микропредприятий', 'оказалось на 14,3 % меньше', 'NEG']]", "prompt_tokens": 1067, "completion_tokens": 795, "cost": 0.00318685, "provider": "xAI"}
+{"sent_id": 40, "raw": "[['Телеканал', 'США', 'осуществят атаку', 'NEG']]", "prompt_tokens": 1525, "completion_tokens": 598, "cost": 0.00313245, "provider": "xAI"}
+{"sent_id": 38, "raw": "[]", "prompt_tokens": 1146, "completion_tokens": 651, "cost": 0.0029256, "provider": "xAI"}
+{"sent_id": 57, "raw": "[]", "prompt_tokens": 1247, "completion_tokens": 286, "cost": 0.00200495, "provider": "xAI"}
+{"sent_id": 50, "raw": "[['NULL', 'Голос Америки', '75 лет в эфире', 'POS']]", "prompt_tokens": 1065, "completion_tokens": 511, "cost": 0.00233995, "provider": "xAI"}
+{"sent_id": 60, "raw": "[]", "prompt_tokens": 1695, "completion_tokens": 244, "cost": 0.00245995, "provider": "xAI"}
+{"sent_id": 58, "raw": "[]", "prompt_tokens": 1379, "completion_tokens": 331, "cost": 0.00228245, "provider": "xAI"}
+{"sent_id": 61, "raw": "[]", "prompt_tokens": 1484, "completion_tokens": 226, "cost": 0.0021512, "provider": "xAI"}
+{"sent_id": 56, "raw": "[]", "prompt_tokens": 1267, "completion_tokens": 289, "cost": 0.00203745, "provider": "xAI"}
+{"sent_id": 64, "raw": "[]", "prompt_tokens": 846, "completion_tokens": 216, "cost": 0.0013287, "provider": "xAI"}
+{"sent_id": 52, "raw": "[]", "prompt_tokens": 1188, "completion_tokens": 535, "cost": 0.0025537, "provider": "xAI"}
+{"sent_id": 67, "raw": "[]", "prompt_tokens": 920, "completion_tokens": 278, "cost": 0.0017106, "provider": "xAI"}
+{"sent_id": 70, "raw": "[]", "prompt_tokens": 678, "completion_tokens": 149, "cost": 0.0009512, "provider": "xAI"}
+{"sent_id": 65, "raw": "[]", "prompt_tokens": 1214, "completion_tokens": 222, "cost": 0.0018037, "provider": "xAI"}
+{"sent_id": 63, "raw": "[]", "prompt_tokens": 1299, "completion_tokens": 438, "cost": 0.00244995, "provider": "xAI"}
+{"sent_id": 59, "raw": "[]", "prompt_tokens": 967, "completion_tokens": 452, "cost": 0.00206995, "provider": "xAI"}
+{"sent_id": 69, "raw": "[]", "prompt_tokens": 1047, "completion_tokens": 253, "cost": 0.00167245, "provider": "xAI"}
+{"sent_id": 66, "raw": "[]", "prompt_tokens": 1545, "completion_tokens": 281, "cost": 0.00236495, "provider": "xAI"}
+{"sent_id": 75, "raw": "[]", "prompt_tokens": 757, "completion_tokens": 189, "cost": 0.00114995, "provider": "xAI"}
+{"sent_id": 55, "raw": "[['глава Россельхознадзора', 'Баумгертнера', 'вспоминать Баумгертнера', 'NEG'], ['глава Россельхознадзора', 'Данкверта', 'вспоминать ... Данкверта', 'NEG']]", "prompt_tokens": 1580, "completion_tokens": 850, "cost": 0.0038312, "provider": "xAI"}
+{"sent_id": 62, "raw": "[['AUTHOR', 'Меркулова', '13 очков на счеты Меркуловой', 'POS'], ['AUTHOR', 'Гончарова', '10 у Гончаровой', 'POS']]", "prompt_tokens": 1650, "completion_tokens": 571, "cost": 0.0033556, "provider": "xAI"}
+{"sent_id": 72, "raw": "[]", "prompt_tokens": 950, "completion_tokens": 279, "cost": 0.0017506, "provider": "xAI"}
+{"sent_id": 74, "raw": "[]", "prompt_tokens": 807, "completion_tokens": 284, "cost": 0.00144995, "provider": "xAI"}
+{"sent_id": 68, "raw": "[]", "prompt_tokens": 1120, "completion_tokens": 415, "cost": 0.0023031, "provider": "xAI"}
+{"sent_id": 77, "raw": "[]", "prompt_tokens": 1438, "completion_tokens": 348, "cost": 0.0023987, "provider": "xAI"}
+{"sent_id": 78, "raw": "[]", "prompt_tokens": 1273, "completion_tokens": 289, "cost": 0.00204495, "provider": "xAI"}
+{"sent_id": 76, "raw": "[]", "prompt_tokens": 1027, "completion_tokens": 363, "cost": 0.00192245, "provider": "xAI"}
+{"sent_id": 73, "raw": "[]", "prompt_tokens": 1274, "completion_tokens": 535, "cost": 0.0026612, "provider": "xAI"}
+{"sent_id": 83, "raw": "[]", "prompt_tokens": 1423, "completion_tokens": 386, "cost": 0.00247495, "provider": "xAI"}
+{"sent_id": 89, "raw": "[]", "prompt_tokens": 1044, "completion_tokens": 255, "cost": 0.0018081, "provider": "xAI"}
+{"sent_id": 81, "raw": "[]", "prompt_tokens": 1622, "completion_tokens": 399, "cost": 0.0028906, "provider": "xAI"}
+{"sent_id": 87, "raw": "[]", "prompt_tokens": 1598, "completion_tokens": 443, "cost": 0.0029706, "provider": "xAI"}
+{"sent_id": 79, "raw": "[['AUTHOR', 'Толстому', 'не давали покоя', 'NEG']]", "prompt_tokens": 1147, "completion_tokens": 680, "cost": 0.00286495, "provider": "xAI"}
+{"sent_id": 85, "raw": "[]", "prompt_tokens": 1320, "completion_tokens": 351, "cost": 0.0023931, "provider": "xAI"}
+{"sent_id": 80, "raw": "[]", "prompt_tokens": 1384, "completion_tokens": 414, "cost": 0.0024962, "provider": "xAI"}
+{"sent_id": 94, "raw": "[]", "prompt_tokens": 1154, "completion_tokens": 225, "cost": 0.0017362, "provider": "xAI"}
+{"sent_id": 71, "raw": "[]", "prompt_tokens": 1264, "completion_tokens": 700, "cost": 0.0030612, "provider": "xAI"}
+{"sent_id": 84, "raw": "[['Голливуд', 'основателе WikiLeaks', 'планирует снять четыре фильма', 'POS']]", "prompt_tokens": 1291, "completion_tokens": 715, "cost": 0.00313245, "provider": "xAI"}
+{"sent_id": 88, "raw": "[['WikiLeaks', 'дипломатов США', 'публикацию ... секретных документов, содержащих письма дипломатов США', 'NEG'], ['WikiLeaks', 'мировых лидеров', 'публикацию ... секретных документов, содержащих ... характеристики многих мировых лидеров', 'NEG']]", "prompt_tokens": 1657, "completion_tokens": 684, "cost": 0.00351245, "provider": "xAI"}
+{"sent_id": 92, "raw": "[]", "prompt_tokens": 1264, "completion_tokens": 323, "cost": 0.0021187, "provider": "xAI"}
+{"sent_id": 90, "raw": "[]", "prompt_tokens": 1163, "completion_tokens": 435, "cost": 0.00240685, "provider": "xAI"}
+{"sent_id": 93, "raw": "[]", "prompt_tokens": 1161, "completion_tokens": 371, "cost": 0.00224435, "provider": "xAI"}
+{"sent_id": 82, "raw": "[['болельщики футбольного клуба «Спартак»', 'погибшем товарище', 'в память о погибшем товарище', 'POS']]", "prompt_tokens": 1306, "completion_tokens": 612, "cost": 0.0028937, "provider": "xAI"}
+{"sent_id": 99, "raw": "[]", "prompt_tokens": 811, "completion_tokens": 303, "cost": 0.00150245, "provider": "xAI"}
+{"sent_id": 86, "raw": "[]", "prompt_tokens": 1481, "completion_tokens": 557, "cost": 0.00310935, "provider": "xAI"}
+{"sent_id": 101, "raw": "[]", "prompt_tokens": 1152, "completion_tokens": 326, "cost": 0.0019862, "provider": "xAI"}
+{"sent_id": 98, "raw": "[]", "prompt_tokens": 1088, "completion_tokens": 268, "cost": 0.0018956, "provider": "xAI"}
+{"sent_id": 100, "raw": "[]", "prompt_tokens": 1364, "completion_tokens": 302, "cost": 0.0023256, "provider": "xAI"}
+{"sent_id": 102, "raw": "[]", "prompt_tokens": 1199, "completion_tokens": 328, "cost": 0.00204995, "provider": "xAI"}
+{"sent_id": 96, "raw": "[]", "prompt_tokens": 983, "completion_tokens": 377, "cost": 0.00190245, "provider": "xAI"}
+{"sent_id": 97, "raw": "[]", "prompt_tokens": 1102, "completion_tokens": 463, "cost": 0.0022662, "provider": "xAI"}
+{"sent_id": 91, "raw": "[['NULL', '«Планета обезьян: Война»', 'дедовщиной', 'NEG']]", "prompt_tokens": 1092, "completion_tokens": 885, "cost": 0.0033087, "provider": "xAI"}
+{"sent_id": 105, "raw": "[]", "prompt_tokens": 920, "completion_tokens": 398, "cost": 0.0020106, "provider": "xAI"}
+{"sent_id": 103, "raw": "[]", "prompt_tokens": 1286, "completion_tokens": 344, "cost": 0.0021987, "provider": "xAI"}
+{"sent_id": 106, "raw": "[]", "prompt_tokens": 1025, "completion_tokens": 345, "cost": 0.00187495, "provider": "xAI"}
+{"sent_id": 109, "raw": "[]", "prompt_tokens": 718, "completion_tokens": 274, "cost": 0.0014481, "provider": "xAI"}
+{"sent_id": 115, "raw": "[]", "prompt_tokens": 852, "completion_tokens": 213, "cost": 0.0014631, "provider": "xAI"}
+{"sent_id": 107, "raw": "[]", "prompt_tokens": 1634, "completion_tokens": 545, "cost": 0.0031362, "provider": "xAI"}
+{"sent_id": 116, "raw": "[]", "prompt_tokens": 1599, "completion_tokens": 329, "cost": 0.00255245, "provider": "xAI"}
+{"sent_id": 117, "raw": "[]", "prompt_tokens": 1808, "completion_tokens": 266, "cost": 0.0026562, "provider": "xAI"}
+{"sent_id": 104, "raw": "[['Словакия', 'долги других государств', 'не намерена рассчитываться за долги других государств', 'NEG']]", "prompt_tokens": 1553, "completion_tokens": 564, "cost": 0.00308245, "provider": "xAI"}
+{"sent_id": 118, "raw": "[]", "prompt_tokens": 1417, "completion_tokens": 381, "cost": 0.00245495, "provider": "xAI"}
+{"sent_id": 120, "raw": "[]", "prompt_tokens": 666, "completion_tokens": 273, "cost": 0.0012462, "provider": "xAI"}
+{"sent_id": 110, "raw": "[]", "prompt_tokens": 1515, "completion_tokens": 744, "cost": 0.00361935, "provider": "xAI"}
+{"sent_id": 95, "raw": "[['Критики сайта Rotten Tomatoe', 'фильму', '8,2/10 баллов', 'POS']]", "prompt_tokens": 1142, "completion_tokens": 869, "cost": 0.0033312, "provider": "xAI"}
+{"sent_id": 108, "raw": "[['Баку', 'военные из Армении', 'служат военные из Армении', 'NEG']]", "prompt_tokens": 1262, "completion_tokens": 845, "cost": 0.0034212, "provider": "xAI"}
+{"sent_id": 111, "raw": "[['NULL', '«Уроки корпоративной Америки»', 'Первой в списке стоит', 'POS']]", "prompt_tokens": 1289, "completion_tokens": 766, "cost": 0.00339185, "provider": "xAI"}
+{"sent_id": 114, "raw": "[]", "prompt_tokens": 1973, "completion_tokens": 500, "cost": 0.00344745, "provider": "xAI"}
+{"sent_id": 125, "raw": "[]", "prompt_tokens": 814, "completion_tokens": 239, "cost": 0.0013462, "provider": "xAI"}
+{"sent_id": 119, "raw": "[]", "prompt_tokens": 1810, "completion_tokens": 337, "cost": 0.0029706, "provider": "xAI"}
+{"sent_id": 121, "raw": "[]", "prompt_tokens": 1507, "completion_tokens": 311, "cost": 0.00239245, "provider": "xAI"}
+{"sent_id": 129, "raw": "[]", "prompt_tokens": 1128, "completion_tokens": 257, "cost": 0.0017837, "provider": "xAI"}
+{"sent_id": 128, "raw": "[]", "prompt_tokens": 1310, "completion_tokens": 259, "cost": 0.0020162, "provider": "xAI"}
+{"sent_id": 122, "raw": "[]", "prompt_tokens": 1268, "completion_tokens": 324, "cost": 0.0021262, "provider": "xAI"}
+{"sent_id": 134, "raw": "[]", "prompt_tokens": 666, "completion_tokens": 171, "cost": 0.0011256, "provider": "xAI"}
+{"sent_id": 126, "raw": "[['AUTHOR', 'китайских компаний', 'Объём контрактов в Африке с участием китайских компаний достигает триллиона долларов', 'POS']]", "prompt_tokens": 1017, "completion_tokens": 368, "cost": 0.00192245, "provider": "xAI"}
+{"sent_id": 130, "raw": "[['Марчевский', '«Оно»', 'призвал не пускать', 'NEG']]", "prompt_tokens": 1444, "completion_tokens": 408, "cost": 0.0026906, "provider": "xAI"}
+{"sent_id": 127, "raw": "[['NULL', 'злого клоуна', 'злого клоуна', 'NEG']]", "prompt_tokens": 780, "completion_tokens": 353, "cost": 0.0015887, "provider": "xAI"}
+{"sent_id": 133, "raw": "[]", "prompt_tokens": 1286, "completion_tokens": 286, "cost": 0.0020537, "provider": "xAI"}
+{"sent_id": 124, "raw": "[]", "prompt_tokens": 754, "completion_tokens": 175, "cost": 0.0011112, "provider": "xAI"}
+{"sent_id": 123, "raw": "[['Китай', 'военную базу', 'торжественно открыл', 'POS']]", "prompt_tokens": 1296, "completion_tokens": 801, "cost": 0.0033537, "provider": "xAI"}
+{"sent_id": 136, "raw": "[]", "prompt_tokens": 1374, "completion_tokens": 300, "cost": 0.0023331, "provider": "xAI"}
+{"sent_id": 112, "raw": "[['СМИ', 'президент', 'Заявление Дональда Трампа-младшего было продиктовано президентом', 'NEG'], ['президент', 'Дональда Трампа-младшего', 'продиктовано', 'NEG']]", "prompt_tokens": 1216, "completion_tokens": 942, "cost": 0.0036062, "provider": "xAI"}
+{"sent_id": 144, "raw": "[]", "prompt_tokens": 1142, "completion_tokens": 434, "cost": 0.0022437, "provider": "xAI"}
+{"sent_id": 113, "raw": "[['NULL', 'Дональд Трамп', 'сторонником избрания его отца', 'POS']]", "prompt_tokens": 1053, "completion_tokens": 1109, "cost": 0.00381995, "provider": "xAI"}
+{"sent_id": 146, "raw": "[]", "prompt_tokens": 724, "completion_tokens": 216, "cost": 0.0011762, "provider": "xAI"}
+{"sent_id": 141, "raw": "[['Омар Башир', 'Югу', 'оказать помощь', 'POS']]", "prompt_tokens": 1449, "completion_tokens": 709, "cost": 0.00331495, "provider": "xAI"}
+{"sent_id": 135, "raw": "[]", "prompt_tokens": 1335, "completion_tokens": 814, "cost": 0.00343495, "provider": "xAI"}
+{"sent_id": 138, "raw": "[['народ Южного Судана', 'Исторический момент', 'жад так долго', 'POS']]", "prompt_tokens": 1272, "completion_tokens": 851, "cost": 0.0034487, "provider": "xAI"}
+{"sent_id": 157, "raw": "[]", "prompt_tokens": 1111, "completion_tokens": 519, "cost": 0.00241745, "provider": "xAI"}
+{"sent_id": 162, "raw": "[]", "prompt_tokens": 804, "completion_tokens": 295, "cost": 0.0014737, "provider": "xAI"}
+{"sent_id": 163, "raw": "[]", "prompt_tokens": 1151, "completion_tokens": 259, "cost": 0.00181745, "provider": "xAI"}
+{"sent_id": 160, "raw": "[]", "prompt_tokens": 1211, "completion_tokens": 429, "cost": 0.00231745, "provider": "xAI"}
+{"sent_id": 164, "raw": "[]", "prompt_tokens": 864, "completion_tokens": 347, "cost": 0.0018131, "provider": "xAI"}
+{"sent_id": 161, "raw": "[]", "prompt_tokens": 1203, "completion_tokens": 436, "cost": 0.00232495, "provider": "xAI"}
+{"sent_id": 159, "raw": "[['Грузия', 'США', 'исправно выполняет свои обязательства в качестве союзника', 'POS']]", "prompt_tokens": 1393, "completion_tokens": 652, "cost": 0.00310245, "provider": "xAI"}
+{"sent_id": 171, "raw": "[]", "prompt_tokens": 792, "completion_tokens": 313, "cost": 0.0015037, "provider": "xAI"}
+{"sent_id": 166, "raw": "[]", "prompt_tokens": 869, "completion_tokens": 244, "cost": 0.00142745, "provider": "xAI"}
+{"sent_id": 165, "raw": "[]", "prompt_tokens": 1022, "completion_tokens": 456, "cost": 0.0021487, "provider": "xAI"}
+{"sent_id": 158, "raw": "[['AUTHOR', 'Голос Америки', 'решил умолчать про гибель', 'NEG'], ['NULL', 'военнослужащих грузинской армии', 'гибели', 'NEG']]", "prompt_tokens": 1240, "completion_tokens": 779, "cost": 0.0032287, "provider": "xAI"}
+{"sent_id": 168, "raw": "[]", "prompt_tokens": 1354, "completion_tokens": 297, "cost": 0.0021662, "provider": "xAI"}
+{"sent_id": 169, "raw": "[]", "prompt_tokens": 925, "completion_tokens": 273, "cost": 0.00156995, "provider": "xAI"}
+{"sent_id": 172, "raw": "[['AUTHOR', 'Беттанкур', 'политического скандала', 'NEG'], ['AUTHOR', 'Николя Саркози', 'политического скандала', 'NEG']]", "prompt_tokens": 1467, "completion_tokens": 755, "cost": 0.00345245, "provider": "xAI"}
+{"sent_id": 174, "raw": "[['NULL', 'Саркози', 'обвинения', 'NEG']]", "prompt_tokens": 1111, "completion_tokens": 571, "cost": 0.00268185, "provider": "xAI"}
+{"sent_id": 167, "raw": "[['Эжен Шюлле', 'LʼOréal', 'основал', 'POS']]", "prompt_tokens": 1029, "completion_tokens": 540, "cost": 0.00236745, "provider": "xAI"}
+{"sent_id": 179, "raw": "[]", "prompt_tokens": 817, "completion_tokens": 233, "cost": 0.00133495, "provider": "xAI"}
+{"sent_id": 178, "raw": "[]", "prompt_tokens": 1021, "completion_tokens": 299, "cost": 0.00175495, "provider": "xAI"}
+{"sent_id": 180, "raw": "[]", "prompt_tokens": 1086, "completion_tokens": 375, "cost": 0.0020262, "provider": "xAI"}
+{"sent_id": 183, "raw": "[]", "prompt_tokens": 746, "completion_tokens": 172, "cost": 0.0010937, "provider": "xAI"}
+{"sent_id": 173, "raw": "[['следователи', 'Саркози', 'воспользовавшись болезнью Лилиан Беттанкур мог путём обмана получить от неё деньги', 'NEG'], ['следователи', 'Лилиан Беттанкур', 'воспользовавшись болезнью', 'NEG']]", "prompt_tokens": 1339, "completion_tokens": 665, "cost": 0.00306745, "provider": "xAI"}
+{"sent_id": 170, "raw": "[]", "prompt_tokens": 1099, "completion_tokens": 256, "cost": 0.00174495, "provider": "xAI"}
+{"sent_id": 175, "raw": "[['NULL', 'Саркози', 'дело против Саркози было закрыто', 'POS']]", "prompt_tokens": 952, "completion_tokens": 667, "cost": 0.0025887, "provider": "xAI"}
+{"sent_id": 182, "raw": "[]", "prompt_tokens": 1016, "completion_tokens": 345, "cost": 0.0018637, "provider": "xAI"}
+{"sent_id": 176, "raw": "[['суд', 'Беттанкур', 'признал её недееспособной', 'NEG']]", "prompt_tokens": 1087, "completion_tokens": 712, "cost": 0.00300435, "provider": "xAI"}
+{"sent_id": 181, "raw": "[]", "prompt_tokens": 993, "completion_tokens": 427, "cost": 0.00203995, "provider": "xAI"}
+{"sent_id": 177, "raw": "[['NULL', 'Лилиан Беттанкур', 'выведена из совета директоров', 'NEG']]", "prompt_tokens": 1531, "completion_tokens": 622, "cost": 0.00319995, "provider": "xAI"}
+{"sent_id": 191, "raw": "[]", "prompt_tokens": 832, "completion_tokens": 200, "cost": 0.0012712, "provider": "xAI"}
+{"sent_id": 189, "raw": "[]", "prompt_tokens": 816, "completion_tokens": 297, "cost": 0.0014937, "provider": "xAI"}
+{"sent_id": 184, "raw": "[['Генерал Джон Николсон', 'семье погибшего', 'выразил соболезнования', 'POS']]", "prompt_tokens": 1088, "completion_tokens": 442, "cost": 0.0021962, "provider": "xAI"}
+{"sent_id": 185, "raw": "[['вооружённые силы США', 'афганскому народу', 'приверженными афганскому народу и его поддержке', 'POS'], ['вооружённые силы США', 'терроризмом', 'борьбе с терроризмом', 'NEG']]", "prompt_tokens": 1618, "completion_tokens": 705, "cost": 0.0035162, "provider": "xAI"}
+{"sent_id": 192, "raw": "[]", "prompt_tokens": 1177, "completion_tokens": 435, "cost": 0.00228995, "provider": "xAI"}
+{"sent_id": 187, "raw": "[]", "prompt_tokens": 882, "completion_tokens": 480, "cost": 0.0020337, "provider": "xAI"}
+{"sent_id": 190, "raw": "[['авиации США', 'мирных жителей', 'воздушного удара ... погибли', 'NEG']]", "prompt_tokens": 1041, "completion_tokens": 681, "cost": 0.00273495, "provider": "xAI"}
+{"sent_id": 196, "raw": "[]", "prompt_tokens": 1110, "completion_tokens": 433, "cost": 0.0022012, "provider": "xAI"}
+{"sent_id": 188, "raw": "[['NULL', 'мирных афганцев', 'убиты', 'NEG']]", "prompt_tokens": 1032, "completion_tokens": 607, "cost": 0.0025387, "provider": "xAI"}
+{"sent_id": 194, "raw": "[]", "prompt_tokens": 997, "completion_tokens": 497, "cost": 0.00221995, "provider": "xAI"}
+{"sent_id": 193, "raw": "[]", "prompt_tokens": 1246, "completion_tokens": 475, "cost": 0.0026106, "provider": "xAI"}
+{"sent_id": 201, "raw": "[]", "prompt_tokens": 799, "completion_tokens": 326, "cost": 0.00154495, "provider": "xAI"}
+{"sent_id": 195, "raw": "[['Афганские силы безопасности', 'доступ к месту бомбардировки', 'закрыли доступ', 'NEG'], ['Афганские силы безопасности', 'родственникам', 'запретили родственникам собирать тела', 'NEG'], ['Афганские силы безопасности', 'число погибших', 'мешали точно оценивать число погибших', 'NEG']]", "prompt_tokens": 1178, "completion_tokens": 672, "cost": 0.0028837, "provider": "xAI"}
+{"sent_id": 186, "raw": "[['Официальный представитель Талибана', 'американских захватчиков', 'захватчиков', 'NEG'], ['Официальный представитель Талибана', 'наёмников', 'наёмников', 'NEG'], ['Талибана', 'американских захватчиков и 9 наёмников', 'атаки', 'NEG'], ['Талибана', 'американских захватчиков и 9 наёмников', 'убиты', 'NEG']]", "prompt_tokens": 1357, "completion_tokens": 925, "cost": 0.00387435, "provider": "xAI"}
+{"sent_id": 197, "raw": "[['НАТО', 'людей', 'авиаударов НАТО погибло', 'NEG'], ['афганской армии', 'людей', 'авиударов афганской армии', 'NEG']]", "prompt_tokens": 1143, "completion_tokens": 742, "cost": 0.00301495, "provider": "xAI"}
+{"sent_id": 202, "raw": "[]", "prompt_tokens": 1503, "completion_tokens": 448, "cost": 0.00272995, "provider": "xAI"}
+{"sent_id": 198, "raw": "[['американский самолёт', 'гражданских лиц', 'убив', 'NEG'], ['американский самолёт', 'бензовозам', 'ударил', 'NEG'], ['американский самолёт', 'талибами', 'ударил по двум бензовозам, захваченным', 'NEG']]", "prompt_tokens": 1277, "completion_tokens": 882, "cost": 0.00366685, "provider": "xAI"}
+{"sent_id": 206, "raw": "[]", "prompt_tokens": 798, "completion_tokens": 269, "cost": 0.0014012, "provider": "xAI"}
+{"sent_id": 200, "raw": "[['AUTHOR', 'США', 'авиаудара США ... погибло 33 мирных жителя', 'NEG']]", "prompt_tokens": 935, "completion_tokens": 616, "cost": 0.00257435, "provider": "xAI"}
+{"sent_id": 205, "raw": "[]", "prompt_tokens": 1453, "completion_tokens": 407, "cost": 0.00256495, "provider": "xAI"}
+{"sent_id": 204, "raw": "[['Новой Зеландии', 'израильтянах', 'в память', 'POS']]", "prompt_tokens": 1049, "completion_tokens": 528, "cost": 0.00236245, "provider": "xAI"}
+{"sent_id": 203, "raw": "[]", "prompt_tokens": 1504, "completion_tokens": 784, "cost": 0.0037056, "provider": "xAI"}
+{"sent_id": 199, "raw": "[['американские самолёты', 'больнице организации «Врачи без границ»', 'нанесли удар', 'NEG'], ['американские самолёты', '42 пациента и врача', 'убив', 'NEG'], ['американские самолёты', 'здания', 'уничтожив', 'NEG']]", "prompt_tokens": 1138, "completion_tokens": 820, "cost": 0.0032037, "provider": "xAI"}
+{"sent_id": 218, "raw": "[]", "prompt_tokens": 1259, "completion_tokens": 258, "cost": 0.00194995, "provider": "xAI"}
+{"sent_id": 213, "raw": "[]", "prompt_tokens": 1196, "completion_tokens": 330, "cost": 0.0020512, "provider": "xAI"}
+{"sent_id": 208, "raw": "[['мэр Крайстчёрча', 'землетрясения', 'мир ещё не сталкивался с таким видом землетрясения', 'NEG']]", "prompt_tokens": 1053, "completion_tokens": 614, "cost": 0.00258245, "provider": "xAI"}
+{"sent_id": 209, "raw": "[]", "prompt_tokens": 775, "completion_tokens": 657, "cost": 0.00234245, "provider": "xAI"}
+{"sent_id": 207, "raw": "[['израильтяне', 'Новой Зеландии', 'большую любовь', 'POS'], ['израильтяне', 'пострадавшему городу', 'большую любовь', 'POS'], ['Паркер', 'Израиль', 'поблагодарил за оказанную помощь', 'POS']]", "prompt_tokens": 1451, "completion_tokens": 903, "cost": 0.00380245, "provider": "xAI"}
+{"sent_id": 215, "raw": "[['молодые израильтяне', 'Новая Зеландия', 'мечтают посетить', 'POS'], ['молодые израильтяне', 'Крайстчёрч', 'мечтают посетить', 'POS']]", "prompt_tokens": 1124, "completion_tokens": 567, "cost": 0.0025537, "provider": "xAI"}
+{"sent_id": 214, "raw": "[['Израиль', 'Новой Зеландией', 'настоящее братство', 'POS'], ['Новая Зеландия', 'Израилем', 'настоящее братство', 'POS']]", "prompt_tokens": 1543, "completion_tokens": 536, "cost": 0.00299995, "provider": "xAI"}
+{"sent_id": 211, "raw": "[['NULL', '40 человек', 'погибли', 'NEG']]", "prompt_tokens": 1159, "completion_tokens": 659, "cost": 0.00282745, "provider": "xAI"}
+{"sent_id": 210, "raw": "[['NULL', 'израильтян', 'погибших', 'NEG']]", "prompt_tokens": 1137, "completion_tokens": 744, "cost": 0.00301245, "provider": "xAI"}
+{"sent_id": 221, "raw": "[]", "prompt_tokens": 1455, "completion_tokens": 264, "cost": 0.00220995, "provider": "xAI"}
+{"sent_id": 212, "raw": "[['Боб Паркер', 'израильтянах', 'в память о погибших', 'POS'], ['Реувен Ривлин', 'израильтянах', 'в память о погибших', 'POS']]", "prompt_tokens": 1440, "completion_tokens": 662, "cost": 0.0031862, "provider": "xAI"}
+{"sent_id": 219, "raw": "[['Великобритания', 'США', 'планирует запретить экспорт в США препаратов, используемых для смертной казни', 'NEG']]", "prompt_tokens": 1535, "completion_tokens": 733, "cost": 0.00348245, "provider": "xAI"}
+{"sent_id": 225, "raw": "[]", "prompt_tokens": 1597, "completion_tokens": 372, "cost": 0.00265745, "provider": "xAI"}
+{"sent_id": 216, "raw": "[['многие в Израиле', 'землетрясении', 'настоящую боль', 'NEG'], ['многие в Израиле', 'землетрясении', 'солидарности', 'POS']]", "prompt_tokens": 1171, "completion_tokens": 757, "cost": 0.00308745, "provider": "xAI"}
+{"sent_id": 217, "raw": "[['Мы', 'посещение израильтянами Новой Зеландии', 'поощрять', 'POS'], ['Мы', 'договора', 'недавно подписанного', 'POS']]", "prompt_tokens": 1417, "completion_tokens": 804, "cost": 0.00351245, "provider": "xAI"}
+{"sent_id": 226, "raw": "[]", "prompt_tokens": 1346, "completion_tokens": 351, "cost": 0.0022912, "provider": "xAI"}
+{"sent_id": 227, "raw": "[]", "prompt_tokens": 1425, "completion_tokens": 369, "cost": 0.00243495, "provider": "xAI"}
+{"sent_id": 228, "raw": "[]", "prompt_tokens": 997, "completion_tokens": 408, "cost": 0.00199745, "provider": "xAI"}
+{"sent_id": 220, "raw": "[['правительство Великобритании', 'США', 'запретить экспорт', 'NEG']]", "prompt_tokens": 1356, "completion_tokens": 727, "cost": 0.0033781, "provider": "xAI"}
+{"sent_id": 223, "raw": "[]", "prompt_tokens": 1614, "completion_tokens": 633, "cost": 0.0033312, "provider": "xAI"}
+{"sent_id": 230, "raw": "[]", "prompt_tokens": 1088, "completion_tokens": 354, "cost": 0.0019762, "provider": "xAI"}
+{"sent_id": 233, "raw": "[['AUTHOR', 'Израиль', 'превратился в одно из самых развитых государств мира', 'POS']]", "prompt_tokens": 1556, "completion_tokens": 529, "cost": 0.0029987, "provider": "xAI"}
+{"sent_id": 232, "raw": "[['Биньямин Нетаньяху', 'павшие', 'увидели бы чудеса', 'POS']]", "prompt_tokens": 1526, "completion_tokens": 551, "cost": 0.0030162, "provider": "xAI"}
+{"sent_id": 222, "raw": "[['NULL', 'США', 'контролировать экспорт ... для смертной казни', 'NEG']]", "prompt_tokens": 1374, "completion_tokens": 962, "cost": 0.0039881, "provider": "xAI"}
+{"sent_id": 235, "raw": "[]", "prompt_tokens": 970, "completion_tokens": 363, "cost": 0.0018512, "provider": "xAI"}
+{"sent_id": 236, "raw": "[]", "prompt_tokens": 1173, "completion_tokens": 339, "cost": 0.00204495, "provider": "xAI"}
+{"sent_id": 229, "raw": "[['арабских террористов', 'сограждан', 'погибших от рук арабских террористов', 'NEG']]", "prompt_tokens": 1752, "completion_tokens": 700, "cost": 0.0036712, "provider": "xAI"}
+{"sent_id": 231, "raw": "[['Все население страны', 'солдат, полицейских и простых мирных граждан', 'почтить память убитых', 'POS'], ['террористов', 'солдат, полицейских и простых мирных граждан', 'погибших от рук террористов', 'NEG']]", "prompt_tokens": 1131, "completion_tokens": 776, "cost": 0.00308495, "provider": "xAI"}
+{"sent_id": 224, "raw": "[['правозащитная организация «Reprieve»', 'правительству', 'предъявила ... иск', 'NEG'], ['правозащитная организация «Reprieve»', 'экспорт указанного вещества в США', 'требованием прекратить экспорт', 'NEG']]", "prompt_tokens": 1536, "completion_tokens": 929, "cost": 0.0039737, "provider": "xAI"}
+{"sent_id": 243, "raw": "[]", "prompt_tokens": 1083, "completion_tokens": 317, "cost": 0.00187745, "provider": "xAI"}
+{"sent_id": 240, "raw": "[['Вашингтон', 'Исламабад', 'хочет видеть Исламабад своим «реальным союзником»', 'POS']]", "prompt_tokens": 1404, "completion_tokens": 572, "cost": 0.0029162, "provider": "xAI"}
+{"sent_id": 241, "raw": "[['парламент Пакистана', 'американский рейд', 'осуждающую', 'NEG']]", "prompt_tokens": 1603, "completion_tokens": 651, "cost": 0.00349685, "provider": "xAI"}
+{"sent_id": 245, "raw": "[]", "prompt_tokens": 1061, "completion_tokens": 394, "cost": 0.00217685, "provider": "xAI"}
+{"sent_id": 246, "raw": "[]", "prompt_tokens": 1049, "completion_tokens": 358, "cost": 0.00193745, "provider": "xAI"}
+{"sent_id": 234, "raw": "[['NULL', 'еврейского народа', 'у еврейского народа появилась надежная защита', 'POS'], ['NULL', 'государство', 'само государство стало факелом свободы и демократии, освещающим весь Ближний Восток', 'POS'], ['NULL', 'Израиля', 'главные наши достижения', 'POS']]", "prompt_tokens": 1478, "completion_tokens": 854, "cost": 0.0037137, "provider": "xAI"}
+{"sent_id": 237, "raw": "[['NULL', 'Комитета по иностранным делам', 'влиятельного', 'POS'], ['американским спецназом', 'Усамы бин Ладена', 'ликвидации', 'NEG'], ['американским спецназом', 'Аль-Кайды', 'ликвидации', 'NEG']]", "prompt_tokens": 1945, "completion_tokens": 817, "cost": 0.00420495, "provider": "xAI"}
+{"sent_id": 242, "raw": "[['Начальники генштаба и разведывательных служб Пакистана', 'своей работе', 'признали провалы в своей работе', 'NEG']]", "prompt_tokens": 1699, "completion_tokens": 752, "cost": 0.00373495, "provider": "xAI"}
+{"sent_id": 238, "raw": "[['NULL', 'глава террористического подполья', 'террористического подполья', 'NEG'], ['NULL', 'пакистанским руководителям', 'каким образом глава террористического подполья мог годами жить незамеченным', 'NEG']]", "prompt_tokens": 1755, "completion_tokens": 768, "cost": 0.00384495, "provider": "xAI"}
+{"sent_id": 244, "raw": "[['NULL', 'Дональда Трампа', 'критикует', 'NEG']]", "prompt_tokens": 1380, "completion_tokens": 672, "cost": 0.0031362, "provider": "xAI"}
+{"sent_id": 247, "raw": "[['Многие критики', 'поп-звёзд', 'негативно отнеслись', 'NEG']]", "prompt_tokens": 1080, "completion_tokens": 633, "cost": 0.0026637, "provider": "xAI"}
+{"sent_id": 239, "raw": "[['Керри', 'Америки', 'критический момент', 'NEG'], ['Керри', 'Пакистаном', 'критический момент', 'NEG'], ['Керри', 'Америки', 'серьезных проблем', 'NEG'], ['Керри', 'Пакистаном', 'серьезных проблем', 'NEG']]", "prompt_tokens": 1649, "completion_tokens": 1170, "cost": 0.00471745, "provider": "xAI"}
+{"sent_id": 250, "raw": "[['NULL', 'творчества музыканта', 'беспорядок', 'NEG']]", "prompt_tokens": 1161, "completion_tokens": 713, "cost": 0.00296495, "provider": "xAI"}
+{"sent_id": 251, "raw": "[['он', 'дочерью', 'вогнал её в историю с персонажем Слим Шади', 'NEG']]", "prompt_tokens": 1324, "completion_tokens": 782, "cost": 0.0033412, "provider": "xAI"}
+{"sent_id": 249, "raw": "[['NULL', 'Revival', 'тяжело слушать', 'NEG'], ['NULL', 'Revival', 'погружение в музыку усиливается', 'POS'], ['NULL', 'Ed Sheeran', 'погружение в музыку усиливается', 'POS'], ['NULL', 'X Ambassadors', 'погружение в музыку усиливается', 'POS']]", "prompt_tokens": 1243, "completion_tokens": 921, "cost": 0.00358745, "provider": "xAI"}
+{"sent_id": 252, "raw": "[['AUTHOR', 'Альбом Revival', 'доказательство', 'POS'], ['AUTHOR', 'Маршал Мэтерс', 'может вовлечь слушателей в вызывающие воспоминания драму', 'POS']]", "prompt_tokens": 1220, "completion_tokens": 959, "cost": 0.0036537, "provider": "xAI"}
+{"sent_id": 257, "raw": "[['Грузии', 'Саакашвили', 'приговорили к тюрьме', 'NEG']]", "prompt_tokens": 1353, "completion_tokens": 845, "cost": 0.00353495, "provider": "xAI"}
+{"sent_id": 282, "raw": "[]", "prompt_tokens": 1042, "completion_tokens": 509, "cost": 0.0023062, "provider": "xAI"}
+{"sent_id": 285, "raw": "[]", "prompt_tokens": 1170, "completion_tokens": 740, "cost": 0.0030437, "provider": "xAI"}
+{"sent_id": 283, "raw": "[['отец фанатика', 'Андрес Брейвик', 'отрёкся от сына', 'NEG'], ['AUTHOR', 'Андрес Брейвик', 'фанатика', 'NEG']]", "prompt_tokens": 1569, "completion_tokens": 1145, "cost": 0.00455495, "provider": "xAI"}
+{"sent_id": 284, "raw": "[['AUTHOR', 'Норвегии', 'самая крупная трагедия со времен Второй мировой войны', 'NEG']]", "prompt_tokens": 1055, "completion_tokens": 1194, "cost": 0.00403495, "provider": "xAI"}
+{"sent_id": 287, "raw": "[['AUTHOR', 'Норвегия', 'должна быть сильной и узнаваемой', 'POS']]", "prompt_tokens": 987, "completion_tokens": 557, "cost": 0.00235745, "provider": "xAI"}
+{"sent_id": 289, "raw": "[['NULL', 'Брейвику', 'обвинения в терроризме', 'NEG']]", "prompt_tokens": 1252, "completion_tokens": 391, "cost": 0.0024081, "provider": "xAI"}
+{"sent_id": 292, "raw": "[]", "prompt_tokens": 676, "completion_tokens": 218, "cost": 0.0011212, "provider": "xAI"}
+{"sent_id": 286, "raw": "[['NULL', 'Норвегию', 'новую Норвегию', 'POS']]", "prompt_tokens": 1172, "completion_tokens": 678, "cost": 0.0028912, "provider": "xAI"}
+{"sent_id": 294, "raw": "[['отец Андерса Брейвика', 'его сын', 'должен был убить себя', 'NEG']]", "prompt_tokens": 1106, "completion_tokens": 610, "cost": 0.0026387, "provider": "xAI"}
+{"sent_id": 288, "raw": "[]", "prompt_tokens": 1350, "completion_tokens": 961, "cost": 0.0038212, "provider": "xAI"}
+{"sent_id": 296, "raw": "[['NULL', 'Италии', 'не понадобится финансовая помощь', 'POS'], ['NULL', 'Испании', 'не понадобится финансовая помощь', 'POS']]", "prompt_tokens": 1670, "completion_tokens": 425, "cost": 0.0030156, "provider": "xAI"}
+{"sent_id": 295, "raw": "[]", "prompt_tokens": 1173, "completion_tokens": 529, "cost": 0.00251995, "provider": "xAI"}
+{"sent_id": 291, "raw": "[]", "prompt_tokens": 1108, "completion_tokens": 803, "cost": 0.0032581, "provider": "xAI"}
+{"sent_id": 290, "raw": "[['NULL', 'Брейвика', 'смягчения приговора не будет', 'NEG']]", "prompt_tokens": 1427, "completion_tokens": 802, "cost": 0.00351995, "provider": "xAI"}
+{"sent_id": 302, "raw": "[['Южная Корея', 'Северная Корея', 'обменялись артиллерийскими выстрелами', 'NEG'], ['Северная Корея', 'Южная Корея', 'обменялись артиллерийскими выстрелами', 'NEG']]", "prompt_tokens": 1090, "completion_tokens": 618, "cost": 0.0026387, "provider": "xAI"}
+{"sent_id": 298, "raw": "[['Рен', 'Италию', 'жесткие меры экономии', 'NEG'], ['Рен', 'Испанию', 'жесткие меры экономии', 'NEG'], ['Рен', 'Италию', 'поднять налоги', 'NEG'], ['Рен', 'Испанию', 'поднять налоги', 'NEG']]", "prompt_tokens": 1395, "completion_tokens": 762, "cost": 0.00351435, "provider": "xAI"}
+{"sent_id": 301, "raw": "[['Северная Корея', 'Южная Корея', 'обменялись огнем', 'NEG'], ['Южная Корея', 'Северная Корея', 'обменялись огнем', 'NEG']]", "prompt_tokens": 1082, "completion_tokens": 696, "cost": 0.0028237, "provider": "xAI"}
+{"sent_id": 300, "raw": "[['Ренн', 'европейских лидеров', 'не стоит недооценивать «политическую волю»', 'POS'], ['Ренн', 'евро', 'стремлении защитить евро', 'POS']]", "prompt_tokens": 1709, "completion_tokens": 768, "cost": 0.00378745, "provider": "xAI"}
+{"sent_id": 308, "raw": "[]", "prompt_tokens": 878, "completion_tokens": 447, "cost": 0.0019462, "provider": "xAI"}
+{"sent_id": 293, "raw": "[['анонимный источник', 'заявления террориста', 'бахвальство', 'NEG'], ['NULL', 'террориста', 'террориста', 'NEG'], ['NULL', 'группировки «крестоносцев»', 'праворадикальной', 'NEG'], ['крестоносцев', 'ислама', 'против засилья', 'NEG']]", "prompt_tokens": 1715, "completion_tokens": 1150, "cost": 0.00474995, "provider": "xAI"}
+{"sent_id": 297, "raw": "[['Олли Рен', 'третья и четвертая по величине экономики Европы', 'не пойдут по стопам', 'POS'], ['Олли Рен', 'Греции', 'обремененных гигантскими долгами', 'NEG'], ['Олли Рен', 'Ирландии', 'обремененных гигантскими долгами', 'NEG'], ['Олли Рен', 'Португалии', 'обремененных гигантскими долгами', 'NEG'], ['Олли Рен', 'Греции', 'пришлось выделить многомиллиардные пакеты помощи', 'NEG'], ['Олли Рен', 'Ирландии', 'пришлось выделить многомиллиардные пакеты помощи', 'NEG'], ['Олли Рен', 'Португалии', 'пришлось выделить многомиллиардные пакеты помощи', 'NEG']]", "prompt_tokens": 1798, "completion_tokens": 1138, "cost": 0.0048237, "provider": "xAI"}
+{"sent_id": 305, "raw": "[['Сеул', 'разграничительную линию', 'признает ... в качестве официальной границы', 'POS']]", "prompt_tokens": 1375, "completion_tokens": 649, "cost": 0.00307245, "provider": "xAI"}
+{"sent_id": 304, "raw": "[['Сеул', 'Северной Кореи', 'снаряд был выпущен с территории Северной Кореи', 'NEG']]", "prompt_tokens": 1350, "completion_tokens": 788, "cost": 0.0033887, "provider": "xAI"}
+{"sent_id": 299, "raw": "[['NULL', 'долгового кризиса', 'предотвратить распространение долгового кризиса', 'POS']]", "prompt_tokens": 1319, "completion_tokens": 835, "cost": 0.00346745, "provider": "xAI"}
+{"sent_id": 312, "raw": "[]", "prompt_tokens": 1321, "completion_tokens": 430, "cost": 0.00245745, "provider": "xAI"}
+{"sent_id": 303, "raw": "[]", "prompt_tokens": 1390, "completion_tokens": 871, "cost": 0.0037806, "provider": "xAI"}
+{"sent_id": 307, "raw": "[['Северной Кореи', 'Южной Кореи', 'Напряженность', 'NEG'], ['Южной Кореи', 'Северной Кореи', 'Напряженность', 'NEG'], ['Северной Кореей', 'острова Ёнпхендо', 'обстрела', 'NEG']]", "prompt_tokens": 1519, "completion_tokens": 785, "cost": 0.00359245, "provider": "xAI"}
+{"sent_id": 310, "raw": "[['Берлускони', 'план', 'получил одобрение руководителей других европейских стран', 'POS'], ['Берлускони', 'кабинетом', 'получил одобрение руководителей других европейских стран', 'POS']]", "prompt_tokens": 1373, "completion_tokens": 565, "cost": 0.00285995, "provider": "xAI"}
+{"sent_id": 319, "raw": "[]", "prompt_tokens": 921, "completion_tokens": 262, "cost": 0.00153745, "provider": "xAI"}
+{"sent_id": 313, "raw": "[['инвесторов', 'Италия', 'станет следующей жертвой', 'NEG']]", "prompt_tokens": 1599, "completion_tokens": 499, "cost": 0.00297745, "provider": "xAI"}
+{"sent_id": 320, "raw": "[]", "prompt_tokens": 1200, "completion_tokens": 247, "cost": 0.0018487, "provider": "xAI"}
+{"sent_id": 311, "raw": "[['Ангелой Меркель', 'Берлускони', 'заручился их поддержкой', 'POS'], ['Жан-Клодом Трише', 'Берлускони', 'заручился их поддержкой', 'POS']]", "prompt_tokens": 1654, "completion_tokens": 625, "cost": 0.0033612, "provider": "xAI"}
+{"sent_id": 318, "raw": "[]", "prompt_tokens": 1232, "completion_tokens": 373, "cost": 0.0022037, "provider": "xAI"}
+{"sent_id": 322, "raw": "[]", "prompt_tokens": 699, "completion_tokens": 249, "cost": 0.00122745, "provider": "xAI"}
+{"sent_id": 314, "raw": "[['Британские СМИ', 'Россию', 'обвинили', 'NEG'], ['Британские СМИ', 'Россию', 'подкупе членов ФИФА', 'NEG']]", "prompt_tokens": 1571, "completion_tokens": 747, "cost": 0.00356245, "provider": "xAI"}
+{"sent_id": 306, "raw": "[]", "prompt_tokens": 1592, "completion_tokens": 1031, "cost": 0.0044331, "provider": "xAI"}
+{"sent_id": 325, "raw": "[]", "prompt_tokens": 1367, "completion_tokens": 204, "cost": 0.00194995, "provider": "xAI"}
+{"sent_id": 309, "raw": "[['Сеул', 'Пхеньян', 'войне в Корее', 'NEG'], ['Пхеньян', 'Сеул', 'войне в Корее', 'NEG'], ['Сеул', 'Пхеньян', 'так и не подписали мирный договор', 'NEG'], ['Пхеньян', 'Сеул', 'так и не подписали мирный договор', 'NEG']]", "prompt_tokens": 1871, "completion_tokens": 979, "cost": 0.00451745, "provider": "xAI"}
+{"sent_id": 316, "raw": "[['NULL', 'член исполнительного комитета ФИФА', 'принял картину несмотря на запрет принимать подарки', 'NEG']]", "prompt_tokens": 1310, "completion_tokens": 607, "cost": 0.0028862, "provider": "xAI"}
+{"sent_id": 315, "raw": "[['Британская пресса', 'Лондона', 'болезненно переживающая разгромное поражение', 'NEG'], ['Британская пресса', 'российскими чиновниками', 'преподношения российскими чиновниками дорогих подарков', 'NEG']]", "prompt_tokens": 1752, "completion_tokens": 761, "cost": 0.0038237, "provider": "xAI"}
+{"sent_id": 317, "raw": "[['Вячеслав Колосков', 'Мишель Д’Хоге', 'подарил ему картину', 'POS']]", "prompt_tokens": 1600, "completion_tokens": 841, "cost": 0.0039681, "provider": "xAI"}
+{"sent_id": 334, "raw": "[]", "prompt_tokens": 1338, "completion_tokens": 262, "cost": 0.0020587, "provider": "xAI"}
+{"sent_id": 324, "raw": "[['Хезболла', 'руководству Сирии', 'выразила поддержку', 'POS'], ['Хезболла', 'народу Сирии', 'выразила поддержку', 'POS'], ['Хезболла', 'умма', 'станет сильнее', 'POS']]", "prompt_tokens": 1429, "completion_tokens": 652, "cost": 0.00314745, "provider": "xAI"}
+{"sent_id": 332, "raw": "[]", "prompt_tokens": 1405, "completion_tokens": 453, "cost": 0.00261995, "provider": "xAI"}
+{"sent_id": 336, "raw": "[]", "prompt_tokens": 1265, "completion_tokens": 300, "cost": 0.00206245, "provider": "xAI"}
+{"sent_id": 326, "raw": "[['США', 'Сирии', 'выпустили более 100 ракет по объектам', 'NEG'], ['Великобритания', 'Сирии', 'выпустили более 100 ракет по объектам', 'NEG'], ['Франция', 'Сирии', 'выпустили более 100 ракет по объектам', 'NEG']]", "prompt_tokens": 1355, "completion_tokens": 600, "cost": 0.00292495, "provider": "xAI"}
+{"sent_id": 321, "raw": "[['британских СМИ', 'ФИФА', 'массированная атака', 'NEG'], ['NULL', 'английской заявки', 'провала', 'NEG'], ['британских СМИ', 'федерации', 'отставок', 'NEG'], ['жители Туманного Альбиона', 'Зеппа Блаттера', 'главным злодеем десятилетия', 'NEG']]", "prompt_tokens": 1909, "completion_tokens": 849, "cost": 0.00423995, "provider": "xAI"}
+{"sent_id": 327, "raw": "[['NULL', 'сирийского правительства', 'обвинений в применении химического оружия', 'NEG'], ['сирийского правительства', 'мирных жителей', 'применении химического оружия против', 'NEG']]", "prompt_tokens": 1341, "completion_tokens": 661, "cost": 0.00305995, "provider": "xAI"}
+{"sent_id": 323, "raw": "[['Хезболла', 'США', 'осудила ракетные удары', 'NEG'], ['Хезболла', 'Великобритании', 'осудила ракетные удары', 'NEG'], ['Хезболла', 'Франции', 'осудила ракетные удары', 'NEG']]", "prompt_tokens": 1588, "completion_tokens": 834, "cost": 0.0039356, "provider": "xAI"}
+{"sent_id": 329, "raw": "[['Хезболлы', 'Сирии', 'злобная атака против Сирии является грубым нарушением её суверенитета', 'NEG']]", "prompt_tokens": 1523, "completion_tokens": 614, "cost": 0.00316995, "provider": "xAI"}
+{"sent_id": 331, "raw": "[['Хезболла', 'война против народа в регионе и движения сопротивления', 'не достигнет цели', 'NEG'], ['NULL', 'умма', 'станет ещё сильнее и решительнее, чтобы противостоять и побеждать', 'POS']]", "prompt_tokens": 1500, "completion_tokens": 829, "cost": 0.0038131, "provider": "xAI"}
+{"sent_id": 328, "raw": "[['Власти Сирии', 'повстанцами', 'выдуманы повстанцами', 'NEG'], ['Россия', 'повстанцами', 'выдуманы повстанцами', 'NEG'], ['Сергей Лавров', 'сообщения о химической атаке', '«постановка»', 'NEG'], ['Власти Сирии', 'обвинения', 'отвергают эти обвинения', 'NEG']]", "prompt_tokens": 1556, "completion_tokens": 955, "cost": 0.0040637, "provider": "xAI"}
+{"sent_id": 335, "raw": "[['Али Хаменеи', 'ракетные удары по Сирии', 'преступлением', 'NEG'], ['Али Хаменеи', 'США и их союзники', 'преступлением', 'NEG'], ['Али Хаменеи', 'лидеров этих западных стран', 'преступниками', 'NEG']]", "prompt_tokens": 1563, "completion_tokens": 869, "cost": 0.00385745, "provider": "xAI"}
+{"sent_id": 333, "raw": "[['Бойцы «Хезболлы»', 'правительственных войск', 'воюют ... на стороне', 'POS']]", "prompt_tokens": 1147, "completion_tokens": 706, "cost": 0.00292995, "provider": "xAI"}
+{"sent_id": 337, "raw": "[['Власти Сирии', 'повстанцами', 'выдуманы повстанцами', 'NEG'], ['Россия', 'Власти Сирии', 'это мнение разделяет', 'POS']]", "prompt_tokens": 1463, "completion_tokens": 772, "cost": 0.00348995, "provider": "xAI"}
+{"sent_id": 345, "raw": "[]", "prompt_tokens": 1271, "completion_tokens": 393, "cost": 0.00243685, "provider": "xAI"}
+{"sent_id": 343, "raw": "[]", "prompt_tokens": 956, "completion_tokens": 525, "cost": 0.0022387, "provider": "xAI"}
+{"sent_id": 330, "raw": "[['движения', 'ООН', 'унижают', 'NEG'], ['движения', 'Совета Безопасности ООН', 'унижают', 'NEG'], ['движения', 'международного сообщества', 'унижают', 'NEG'], ['движения', 'международного сообщества', 'так называемого', 'NEG']]", "prompt_tokens": 1353, "completion_tokens": 1004, "cost": 0.00406685, "provider": "xAI"}
+{"sent_id": 342, "raw": "[['Иран', 'Башара Асада', 'поддерживает', 'POS'], ['Башара Асада', 'повстанцев', 'войне против', 'NEG']]", "prompt_tokens": 1438, "completion_tokens": 649, "cost": 0.0032856, "provider": "xAI"}
+{"sent_id": 341, "raw": "[['Иран', 'Саудовской Аравией', 'конфликтует', 'NEG'], ['Иран', 'суннитскими монархиями', 'конфликтует', 'NEG'], ['Саудовской Аравией', 'Иран', 'конфликтует', 'NEG'], ['суннитскими монархиями', 'Иран', 'конфликтует', 'NEG'], ['Саудовской Аравией', 'США', 'союзниками', 'POS'], ['суннитскими монархиями', 'США', 'союзниками', 'POS']]", "prompt_tokens": 1511, "completion_tokens": 724, "cost": 0.00342995, "provider": "xAI"}
+{"sent_id": 340, "raw": "[['Представители Корпуса Стражей Исламской революции', 'Сирия', 'поддержка Сирии будет продолжена', 'POS'], ['Представители Корпуса Стражей Исламской революции', 'американцев', 'последствия', 'NEG']]", "prompt_tokens": 1531, "completion_tokens": 745, "cost": 0.00350745, "provider": "xAI"}
+{"sent_id": 347, "raw": "[['Некоторые', 'Американцы', 'убийцы людей', 'NEG']]", "prompt_tokens": 1356, "completion_tokens": 494, "cost": 0.0026612, "provider": "xAI"}
+{"sent_id": 355, "raw": "[]", "prompt_tokens": 879, "completion_tokens": 199, "cost": 0.00132745, "provider": "xAI"}
+{"sent_id": 344, "raw": "[['NULL', 'США', 'выразить протест против ракетных ударов', 'NEG'], ['NULL', 'их союзниками', 'выразить протест против ракетных ударов', 'NEG']]", "prompt_tokens": 1394, "completion_tokens": 713, "cost": 0.0032562, "provider": "xAI"}
+{"sent_id": 356, "raw": "[]", "prompt_tokens": 1449, "completion_tokens": 237, "cost": 0.00213495, "provider": "xAI"}
+{"sent_id": 338, "raw": "[['Хаменеи', 'утреннее нападение на Сирию', 'преступление', 'NEG'], ['Хаменеи', 'президенты США', 'тяжкое преступление', 'NEG'], ['Хаменеи', 'президенты Франции', 'тяжкое преступление', 'NEG'], ['Хаменеи', 'премьер министр Великобритании', 'тяжкое преступление', 'NEG'], ['Хаменеи', 'президенты США', 'совершая такие же преступления', 'NEG'], ['Хаменеи', 'президенты Франции', 'совершая такие же преступления', 'NEG'], ['Хаменеи', 'премьер министр Великобритании', 'совершая такие же преступления', 'NEG'], ['Хаменеи', 'президенты США', 'не добьются никаких результатов', 'NEG'], ['Хаменеи', 'президенты Франции', 'не добьются никаких результатов', 'NEG'], ['Хаменеи', 'премьер министр Великобритании', 'не добьются никаких результатов', 'NEG']]", "prompt_tokens": 1966, "completion_tokens": 1212, "cost": 0.0052187, "provider": "xAI"}
+{"sent_id": 346, "raw": "[['Они', 'Америке', 'антиамериканские лозунги', 'NEG']]", "prompt_tokens": 1063, "completion_tokens": 760, "cost": 0.00295995, "provider": "xAI"}
+{"sent_id": 351, "raw": "[['NULL', 'Британские', 'Британские убийцы, убирайтесь', 'NEG']]", "prompt_tokens": 1138, "completion_tokens": 551, "cost": 0.0025312, "provider": "xAI"}
+{"sent_id": 353, "raw": "[['NULL', 'свою страну', 'всего 37% украинским считают свою страну независимой', 'NEG']]", "prompt_tokens": 1102, "completion_tokens": 526, "cost": 0.0024237, "provider": "xAI"}
+{"sent_id": 350, "raw": "[['демонстрантов', 'британской авиабазой Акротири', 'протестовали', 'NEG']]", "prompt_tokens": 1387, "completion_tokens": 699, "cost": 0.00321245, "provider": "xAI"}
+{"sent_id": 348, "raw": "[['один из протестующих', 'американский флаг', 'сжигает американский флаг', 'NEG']]", "prompt_tokens": 1261, "completion_tokens": 745, "cost": 0.00316995, "provider": "xAI"}
+{"sent_id": 352, "raw": "[['представителями оппозиции', 'милиции', 'стычками', 'NEG'], ['милиции', 'представителями оппозиции', 'стычками', 'NEG'], ['милиции', 'оппозиционных колонн', 'помешала движение', 'NEG'], ['оппозиционных колонн', 'милиции', 'помешала движение', 'NEG']]", "prompt_tokens": 1486, "completion_tokens": 671, "cost": 0.0032662, "provider": "xAI"}
+{"sent_id": 358, "raw": "[['Владимир Фесенко', 'Отсутствие серьезных военных угроз для страны', 'самое главное достижение для Украины', 'POS']]", "prompt_tokens": 1763, "completion_tokens": 495, "cost": 0.00317245, "provider": "xAI"}
+{"sent_id": 357, "raw": "[['большинство украинские', 'путч', 'победу демократической революции', 'POS'], ['большинство украинские', 'властью КПСС', 'покончившей с', 'NEG']]", "prompt_tokens": 1323, "completion_tokens": 649, "cost": 0.00300745, "provider": "xAI"}
+{"sent_id": 354, "raw": "[['украинцы', 'руководителей', 'винят', 'NEG'], ['украинцы', 'отсутствие военных конфликтов', 'наибольшим успехом ... считают', 'POS']]", "prompt_tokens": 1306, "completion_tokens": 741, "cost": 0.0032162, "provider": "xAI"}
+{"sent_id": 339, "raw": "[['Хаменеи', 'США', 'сыграли главную роль в создании Исламского государства (ИГ) на саудовские деньги, направив затем ИГ «против иракского и сирийского народов»', 'NEG'], ['Хаменеи', 'Саудовская Аравия', 'на саудовские деньги', 'NEG'], ['Хаменеи', 'иракского народа', 'против', 'NEG'], ['Хаменеи', 'сирийского народа', 'против', 'NEG'], ['Хаменеи', 'Исламского государства', 'направив затем ИГ «против иракского и сирийского народов»', 'NEG']]", "prompt_tokens": 1706, "completion_tokens": 1101, "cost": 0.0046162, "provider": "xAI"}
+{"sent_id": 359, "raw": "[['Политолог', 'Украины', 'прошли без серьезных угроз и кровавых внутренних конфликтов', 'POS'], ['Политолог', 'постсоветских стран', 'не удалось избежать', 'NEG']]", "prompt_tokens": 1775, "completion_tokens": 584, "cost": 0.00340995, "provider": "xAI"}
+{"sent_id": 364, "raw": "[]", "prompt_tokens": 1102, "completion_tokens": 383, "cost": 0.0020662, "provider": "xAI"}
+{"sent_id": 360, "raw": "[]", "prompt_tokens": 1170, "completion_tokens": 411, "cost": 0.0022212, "provider": "xAI"}
+{"sent_id": 369, "raw": "[]", "prompt_tokens": 707, "completion_tokens": 241, "cost": 0.00121745, "provider": "xAI"}
+{"sent_id": 362, "raw": "[['местных сепаратистов', 'федеральными войсками', 'войны', 'NEG'], ['федеральными войсками', 'местных сепаратистов', 'войны', 'NEG'], ['AUTHOR', 'Чечня', 'относительно спокойным', 'POS'], ['NULL', 'Чечня', 'пережила две войны', 'NEG']]", "prompt_tokens": 1482, "completion_tokens": 875, "cost": 0.0037712, "provider": "xAI"}
+{"sent_id": 363, "raw": "[]", "prompt_tokens": 1463, "completion_tokens": 617, "cost": 0.00310245, "provider": "xAI"}
+{"sent_id": 349, "raw": "[['Политик', 'конфликт', 'не вмешиваться в конфликт', 'NEG'], ['Политик', 'иностранные базы', 'закрыть иностранные базы', 'NEG'], ['Политик', 'НАТО', 'выйти из НАТО', 'NEG']]", "prompt_tokens": 1319, "completion_tokens": 1162, "cost": 0.00428495, "provider": "xAI"}
+{"sent_id": 361, "raw": "[['NULL', 'террорист', 'взорвал себя', 'NEG'], ['NULL', 'террорист', 'террорист', 'NEG']]", "prompt_tokens": 1324, "completion_tokens": 761, "cost": 0.0032887, "provider": "xAI"}
+{"sent_id": 365, "raw": "[['Сборная России', 'Македонии', 'матчах ... с командами Македонии', 'NEG'], ['Македонии', 'Сборная России', 'матчах ... с командами Македонии', 'NEG'], ['Сборная России', 'Ирландии', 'матчах ... с командами Ирландии', 'NEG'], ['Ирландии', 'Сборная России', 'матчах ... с командами Ирландии', 'NEG']]", "prompt_tokens": 1347, "completion_tokens": 987, "cost": 0.00388245, "provider": "xAI"}
+{"sent_id": 377, "raw": "[]", "prompt_tokens": 1213, "completion_tokens": 397, "cost": 0.00223995, "provider": "xAI"}
+{"sent_id": 385, "raw": "[]", "prompt_tokens": 1483, "completion_tokens": 197, "cost": 0.00207745, "provider": "xAI"}
+{"sent_id": 384, "raw": "[]", "prompt_tokens": 1543, "completion_tokens": 338, "cost": 0.00250495, "provider": "xAI"}
+{"sent_id": 392, "raw": "[]", "prompt_tokens": 1129, "completion_tokens": 297, "cost": 0.00188495, "provider": "xAI"}
+{"sent_id": 389, "raw": "[['турецкую сторону', 'результаты международного расследования', 'не удовлетворили', 'NEG'], ['турецкую сторону', 'Израилем', 'разрыв отношений', 'NEG']]", "prompt_tokens": 1489, "completion_tokens": 489, "cost": 0.00281495, "provider": "xAI"}
+{"sent_id": 393, "raw": "[['AUTHOR', 'Саманта Стосур', 'сильнее всех оказалась', 'POS'], ['AUTHOR', 'Новак Джокович', 'победу одержал', 'POS']]", "prompt_tokens": 1384, "completion_tokens": 564, "cost": 0.0028712, "provider": "xAI"}
+{"sent_id": 391, "raw": "[['NULL', 'Джокович', 'триумфаторы', 'POS'], ['NULL', 'Стосур', 'триумфаторы', 'POS']]", "prompt_tokens": 1041, "completion_tokens": 641, "cost": 0.00276935, "provider": "xAI"}
+{"sent_id": 390, "raw": "[['Анкаре', 'Израиль', 'добиться от Израиля извинений', 'NEG'], ['Анкаре', 'Израиль', 'усиление своего военно-морского присутствия', 'NEG']]", "prompt_tokens": 1572, "completion_tokens": 609, "cost": 0.0032187, "provider": "xAI"}
+{"sent_id": 387, "raw": "[['израильским спецназом', 'Флотилия свободы', 'атакована', 'NEG'], ['NULL', 'турки', 'погибли', 'NEG']]", "prompt_tokens": 1346, "completion_tokens": 810, "cost": 0.0035731, "provider": "xAI"}
+{"sent_id": 386, "raw": "[['Турции', 'Израилем', 'резкого ухудшения отношений', 'NEG'], ['Израилем', 'Турции', 'резкого ухудшения отношений', 'NEG']]", "prompt_tokens": 1878, "completion_tokens": 725, "cost": 0.0038912, "provider": "xAI"}
+{"sent_id": 388, "raw": "[]", "prompt_tokens": 975, "completion_tokens": 728, "cost": 0.00276995, "provider": "xAI"}
+{"sent_id": 394, "raw": "[['NULL', 'Саманта Стосур', 'чистой победой', 'POS'], ['NULL', 'Серена Уильямс', 'фавориткой соревнований', 'POS']]", "prompt_tokens": 1580, "completion_tokens": 746, "cost": 0.0035712, "provider": "xAI"}
+{"sent_id": 399, "raw": "[['Судья', 'Уильямс', 'создавала «вербальные помехи»', 'NEG']]", "prompt_tokens": 1071, "completion_tokens": 409, "cost": 0.00209245, "provider": "xAI"}
+{"sent_id": 403, "raw": "[]", "prompt_tokens": 1142, "completion_tokens": 300, "cost": 0.0019087, "provider": "xAI"}
+{"sent_id": 398, "raw": "[['трехкратная чемпионка ''US Open''', 'судьи', 'оскорбительной тирадой', 'NEG']]", "prompt_tokens": 1303, "completion_tokens": 613, "cost": 0.00289245, "provider": "xAI"}
+{"sent_id": 397, "raw": "[['AUTHOR', 'Стосур', 'звездной игрой', 'POS'], ['AUTHOR', 'Уильямс', 'недостойным поведением', 'NEG']]", "prompt_tokens": 1310, "completion_tokens": 518, "cost": 0.0026637, "provider": "xAI"}
+{"sent_id": 400, "raw": "[['Уильямс', 'судью', 'назвав ее «ненавистницей»', 'NEG']]", "prompt_tokens": 835, "completion_tokens": 534, "cost": 0.00210995, "provider": "xAI"}
+{"sent_id": 395, "raw": "[['AUTHOR', 'Саманте Стосур', 'потребовалось лишь 73 минуты', 'POS'], ['AUTHOR', 'Саманте Стосур', 'одержать победу', 'POS']]", "prompt_tokens": 1245, "completion_tokens": 738, "cost": 0.00313245, "provider": "xAI"}
+{"sent_id": 411, "raw": "[]", "prompt_tokens": 1166, "completion_tokens": 181, "cost": 0.0016412, "provider": "xAI"}
+{"sent_id": 401, "raw": "[['NULL', 'Серене Уильямс', 'штраф', 'NEG'], ['NULL', 'Серене Уильямс', 'испытательный срок', 'NEG'], ['Серене Уильямс', 'линейного арбитра', 'угрозы', 'NEG']]", "prompt_tokens": 1718, "completion_tokens": 633, "cost": 0.0034612, "provider": "xAI"}
+{"sent_id": 406, "raw": "[]", "prompt_tokens": 1034, "completion_tokens": 362, "cost": 0.0019287, "provider": "xAI"}
+{"sent_id": 404, "raw": "[['NULL', 'Уильямс', '13 побед в турнирах серии Большого шлема', 'POS']]", "prompt_tokens": 1182, "completion_tokens": 543, "cost": 0.0025662, "provider": "xAI"}
+{"sent_id": 396, "raw": "[]", "prompt_tokens": 944, "completion_tokens": 791, "cost": 0.0028887, "provider": "xAI"}
+{"sent_id": 409, "raw": "[]", "prompt_tokens": 879, "completion_tokens": 373, "cost": 0.00176245, "provider": "xAI"}
+{"sent_id": 407, "raw": "[['AUTHOR', 'Джокович', 'мастерскую тактику и точность', 'POS']]", "prompt_tokens": 1211, "completion_tokens": 455, "cost": 0.00238245, "provider": "xAI"}
+{"sent_id": 412, "raw": "[]", "prompt_tokens": 1156, "completion_tokens": 386, "cost": 0.0021412, "provider": "xAI"}
+{"sent_id": 402, "raw": "[['Уильямс', 'Евы Асдераки', 'вербальные выпады', 'NEG']]", "prompt_tokens": 1708, "completion_tokens": 829, "cost": 0.0039387, "provider": "xAI"}
+{"sent_id": 405, "raw": "[['NULL', 'Новак Джокович', 'Первая ракетка мира', 'POS'], ['NULL', 'Новак Джокович', 'стал победителем Открытого чемпионата США среди мужчин', 'POS'], ['NULL', 'Новак Джокович', 'одержав победу над испанцем Рафаэлем Надалем', 'POS']]", "prompt_tokens": 1493, "completion_tokens": 727, "cost": 0.00341495, "provider": "xAI"}
+{"sent_id": 414, "raw": "[]", "prompt_tokens": 1172, "completion_tokens": 509, "cost": 0.0024687, "provider": "xAI"}
+{"sent_id": 417, "raw": "[['AUTHOR', 'президенты компаний', 'купаются в роскоши', 'POS']]", "prompt_tokens": 703, "completion_tokens": 419, "cost": 0.00165745, "provider": "xAI"}
+{"sent_id": 419, "raw": "[]", "prompt_tokens": 1682, "completion_tokens": 528, "cost": 0.0031537, "provider": "xAI"}
+{"sent_id": 423, "raw": "[]", "prompt_tokens": 1192, "completion_tokens": 323, "cost": 0.0020287, "provider": "xAI"}
+{"sent_id": 424, "raw": "[]", "prompt_tokens": 1047, "completion_tokens": 311, "cost": 0.00195185, "provider": "xAI"}
+{"sent_id": 410, "raw": "[['NULL', 'американский военнослужащий', 'погиб', 'NEG'], ['NULL', 'американский военнослужащий', 'ранен', 'NEG'], ['NULL', 'афганских силовиков', 'убиты', 'NEG'], ['NULL', 'афганских силовиков', 'ранены', 'NEG']]", "prompt_tokens": 942, "completion_tokens": 738, "cost": 0.0027537, "provider": "xAI"}
+{"sent_id": 420, "raw": "[['Россия', 'правительства Сирии', 'заблокировали резолюцию ООН, направленную против', 'POS'], ['Китай', 'правительства Сирии', 'заблокировали резолюцию ООН, направленную против', 'POS'], ['резолюцию ООН', 'правительства Сирии', 'направленную против', 'NEG']]", "prompt_tokens": 1377, "completion_tokens": 631, "cost": 0.00302995, "provider": "xAI"}
+{"sent_id": 415, "raw": "[['Демонстранты', 'корпораций', 'протест против «алчности корпораций»', 'NEG'], ['Демонстранты', 'США', 'протест против ... социального неравенства в США', 'NEG']]", "prompt_tokens": 1233, "completion_tokens": 922, "cost": 0.00357745, "provider": "xAI"}
+{"sent_id": 416, "raw": "[['Джим', 'стране', 'что творится в стране', 'NEG']]", "prompt_tokens": 1564, "completion_tokens": 735, "cost": 0.0035237, "provider": "xAI"}
+{"sent_id": 408, "raw": "[['NULL', 'Надаль', 'шестое поражение от сербского теннисиста', 'NEG'], ['NULL', 'Надаль', 'проигрывал', 'NEG']]", "prompt_tokens": 1474, "completion_tokens": 1101, "cost": 0.0043262, "provider": "xAI"}
+{"sent_id": 418, "raw": "[['NULL', 'Америка', 'не нравится', 'NEG']]", "prompt_tokens": 1009, "completion_tokens": 583, "cost": 0.00244995, "provider": "xAI"}
+{"sent_id": 421, "raw": "[['Великобритании', 'официального Дамаска', 'введение более жестких санкций против', 'NEG'], ['Франции', 'официального Дамаска', 'введение более жестких санкций против', 'NEG'], ['Германии', 'официального Дамаска', 'введение более жестких санкций против', 'NEG'], ['Португалии', 'официального Дамаска', 'введение более жестких санкций против', 'NEG']]", "prompt_tokens": 1598, "completion_tokens": 679, "cost": 0.0034262, "provider": "xAI"}
+{"sent_id": 413, "raw": "[['талибов', 'американских захватчика', 'захватчика', 'NEG'], ['талибов', 'американских захватчика', 'убито', 'NEG'], ['талибов', 'афганских силовика', 'убито', 'NEG']]", "prompt_tokens": 1381, "completion_tokens": 1040, "cost": 0.00405745, "provider": "xAI"}
+{"sent_id": 422, "raw": "[['Россия', 'правительства Сирии и оппозиции', 'приветствует ... конструктивный диалог', 'POS'], ['Россия', 'иностранного вмешательства', 'без иностранного вмешательства', 'NEG']]", "prompt_tokens": 1404, "completion_tokens": 879, "cost": 0.0036837, "provider": "xAI"}
+{"sent_id": 431, "raw": "[]", "prompt_tokens": 2446, "completion_tokens": 327, "cost": 0.0036062, "provider": "xAI"}
+{"sent_id": 429, "raw": "[['NULL', 'Москву', 'Хватит кормить Москву !', 'NEG']]", "prompt_tokens": 1031, "completion_tokens": 517, "cost": 0.00231245, "provider": "xAI"}
+{"sent_id": 428, "raw": "[['Многие демонстранты', 'Барак Обама', 'исполняет волю Уолл-стрит', 'NEG']]", "prompt_tokens": 1368, "completion_tokens": 637, "cost": 0.0030337, "provider": "xAI"}
+{"sent_id": 427, "raw": "[['NULL', 'восстановления экономики', 'медленными темпами', 'NEG'], ['NULL', 'виновных', 'безответственностью', 'NEG']]", "prompt_tokens": 2032, "completion_tokens": 743, "cost": 0.0041287, "provider": "xAI"}
+{"sent_id": 425, "raw": "[['они', 'политической системе США', 'Разочаровавшись', 'NEG'], ['они', 'лоббиста', 'Я не могу позволить себе лоббиста', 'NEG']]", "prompt_tokens": 1236, "completion_tokens": 821, "cost": 0.0034631, "provider": "xAI"}
+{"sent_id": 426, "raw": "[]", "prompt_tokens": 1062, "completion_tokens": 779, "cost": 0.0030062, "provider": "xAI"}
+{"sent_id": 433, "raw": "[['NULL', 'курдских боевиков', 'убиты', 'NEG']]", "prompt_tokens": 1201, "completion_tokens": 568, "cost": 0.00265245, "provider": "xAI"}
+{"sent_id": 435, "raw": "[['NULL', 'боевиков Курдской рабочей партии', 'наступление на позиции', 'NEG']]", "prompt_tokens": 1455, "completion_tokens": 554, "cost": 0.00293495, "provider": "xAI"}
+{"sent_id": 434, "raw": "[['Турция', 'курдских инсургентов', 'уничтожили', 'NEG']]", "prompt_tokens": 1270, "completion_tokens": 716, "cost": 0.0031087, "provider": "xAI"}
+{"sent_id": 432, "raw": "[['Ростислав Антонов', 'Москву', 'нежелании кормить Москву', 'NEG'], ['Дмитрий Марголин', 'Москву', 'нежелании кормить Москву', 'NEG']]", "prompt_tokens": 1827, "completion_tokens": 759, "cost": 0.00391245, "provider": "xAI"}
+{"sent_id": 442, "raw": "[['NULL', 'Талибан', 'теракт', 'NEG']]", "prompt_tokens": 1272, "completion_tokens": 403, "cost": 0.0023287, "provider": "xAI"}
+{"sent_id": 446, "raw": "[]", "prompt_tokens": 1108, "completion_tokens": 262, "cost": 0.0017712, "provider": "xAI"}
+{"sent_id": 430, "raw": "[['ряд общественных и политических организаций', 'Москву', 'Хватит кормить Москву', 'NEG']]", "prompt_tokens": 1380, "completion_tokens": 805, "cost": 0.0036031, "provider": "xAI"}
+{"sent_id": 436, "raw": "[['Турция', 'курдских боевиков', 'начала наступление на', 'NEG'], ['курдских боевиков', '24 солдата', 'провели серию атак, в результате которых были убиты', 'NEG']]", "prompt_tokens": 1363, "completion_tokens": 715, "cost": 0.00322245, "provider": "xAI"}
+{"sent_id": 438, "raw": "[['Ирана', 'Анкара', 'получила поддержку', 'POS']]", "prompt_tokens": 1291, "completion_tokens": 724, "cost": 0.00315495, "provider": "xAI"}
+{"sent_id": 441, "raw": "[['Турция', 'Курдскую рабочую партию', 'террористической организацией', 'NEG'], ['США', 'Курдскую рабочую партию', 'террористической организацией', 'NEG'], ['Европейский Союз', 'Курдскую рабочую партию', 'террористической организацией', 'NEG']]", "prompt_tokens": 1561, "completion_tokens": 551, "cost": 0.00305995, "provider": "xAI"}
+{"sent_id": 437, "raw": "[['Ирак', 'боевиков', 'осудил действия', 'NEG'], ['Ирак', 'Анкарой', 'сотрудничать', 'POS'], ['Ирак', 'нападения', 'предотвратить', 'NEG']]", "prompt_tokens": 1623, "completion_tokens": 781, "cost": 0.00371245, "provider": "xAI"}
+{"sent_id": 445, "raw": "[]", "prompt_tokens": 898, "completion_tokens": 370, "cost": 0.0017787, "provider": "xAI"}
+{"sent_id": 448, "raw": "[]", "prompt_tokens": 1253, "completion_tokens": 400, "cost": 0.00229745, "provider": "xAI"}
+{"sent_id": 447, "raw": "[]", "prompt_tokens": 1276, "completion_tokens": 427, "cost": 0.0023937, "provider": "xAI"}
+{"sent_id": 449, "raw": "[]", "prompt_tokens": 1665, "completion_tokens": 306, "cost": 0.00257745, "provider": "xAI"}
+{"sent_id": 443, "raw": "[['человек, одетый в форму афганской армии', 'военнослужащих коалиции', 'застрелил', 'NEG']]", "prompt_tokens": 1060, "completion_tokens": 654, "cost": 0.0026912, "provider": "xAI"}
+{"sent_id": 439, "raw": "[['Али Акбар Салехи', 'Ахмет Давутоглу', 'будут сотрудничать', 'POS'], ['Ахмет Давутоглу', 'Али Акбар Салехи', 'будут сотрудничать', 'POS'], ['Али Акбар Салехи', 'Курдской рабочей партией', 'борьбе', 'NEG'], ['Ахмет Давутоглу', 'Курдской рабочей партией', 'борьбе', 'NEG'], ['Али Акбар Салехи', 'Партией свободной жизни Курдистана', 'борьбе', 'NEG'], ['Ахмет Давутоглу', 'Партией свободной жизни Курдистана', 'борьбе', 'NEG']]", "prompt_tokens": 1934, "completion_tokens": 1038, "cost": 0.0047437, "provider": "xAI"}
+{"sent_id": 453, "raw": "[['Уго Чавес', 'США', 'провоцируют ядерную войну', 'NEG'], ['Уго Чавес', 'Израиль', 'провоцируют ядерную войну', 'NEG']]", "prompt_tokens": 1459, "completion_tokens": 521, "cost": 0.00285745, "provider": "xAI"}
+{"sent_id": 440, "raw": "[['курдские экстремисты', 'Турцией', 'ведут борьбу', 'NEG'], ['Турцией', 'курдские экстремисты', 'борьбу', 'NEG'], ['AUTHOR', 'курдские экстремисты', 'экстремисты', 'NEG']]", "prompt_tokens": 1458, "completion_tokens": 1058, "cost": 0.0041987, "provider": "xAI"}
+{"sent_id": 444, "raw": "[['NULL', 'военнослужащий альянса', 'погиб', 'NEG']]", "prompt_tokens": 1235, "completion_tokens": 998, "cost": 0.00376995, "provider": "xAI"}
+{"sent_id": 457, "raw": "[['президент Венесуэлы', 'Ядерная программа Ирана', 'носит мирный характер', 'POS']]", "prompt_tokens": 1391, "completion_tokens": 505, "cost": 0.00273245, "provider": "xAI"}
+{"sent_id": 454, "raw": "[['NULL', 'США', 'провоцируют', 'NEG'], ['NULL', 'Израиль', 'провоцируют', 'NEG']]", "prompt_tokens": 1472, "completion_tokens": 652, "cost": 0.0032012, "provider": "xAI"}
+{"sent_id": 464, "raw": "[]", "prompt_tokens": 1457, "completion_tokens": 217, "cost": 0.00209495, "provider": "xAI"}
+{"sent_id": 452, "raw": "[['США', 'Словении', 'преимущества сотрудничества', 'POS'], ['Словении', 'США', 'преимущества сотрудничества', 'POS'], ['NULL', 'наших демократических институтов', 'подрыв', 'NEG']]", "prompt_tokens": 1576, "completion_tokens": 841, "cost": 0.0038037, "provider": "xAI"}
+{"sent_id": 451, "raw": "[['Помпео', 'обеих стран', 'расширением деловых и торговых связей', 'POS'], ['Логар', 'обеих стран', 'расширением деловых и торговых связей', 'POS']]", "prompt_tokens": 1750, "completion_tokens": 822, "cost": 0.0039737, "provider": "xAI"}
+{"sent_id": 450, "raw": "[['NULL', 'США', 'общую приверженность ... делу обеспечения глобальной безопасности', 'POS'], ['NULL', 'Словении', 'общую приверженность ... делу обеспечения глобальной безопасности', 'POS'], ['NULL', 'США', 'союзников по НАТО', 'POS'], ['NULL', 'Словении', 'союзников по НАТО', 'POS'], ['NULL', 'США', 'двусторонние партнерские отношения', 'POS'], ['NULL', 'Словении', 'двусторонние партнерские отношения', 'POS']]", "prompt_tokens": 1578, "completion_tokens": 902, "cost": 0.0039587, "provider": "xAI"}
+{"sent_id": 459, "raw": "[['министры иностранных дел Европейского союза', 'Ирана', 'поддержку ужесточения санкций', 'NEG']]", "prompt_tokens": 1624, "completion_tokens": 608, "cost": 0.0032812, "provider": "xAI"}
+{"sent_id": 460, "raw": "[['Совет (ЕС)', 'Ирана', 'санкции в отношении Ирана', 'NEG'], ['глав МИД стран ЕС', 'Ирана', 'санкции в отношении Ирана', 'NEG']]", "prompt_tokens": 1401, "completion_tokens": 645, "cost": 0.00309495, "provider": "xAI"}
+{"sent_id": 458, "raw": "[['NULL', 'вооружёнными группировками', 'дестабилизируют обстановку в стране', 'NEG'], ['NULL', 'властей США', 'по заказу властей США и Израиля', 'NEG'], ['NULL', 'Израиля', 'по заказу властей США и Израиля', 'NEG']]", "prompt_tokens": 1691, "completion_tokens": 734, "cost": 0.00367995, "provider": "xAI"}
+{"sent_id": 455, "raw": "[['венесуэльского лидера', 'Правительство США', 'виноват', 'NEG'], ['венесуэльского лидера', 'Израиль', 'виноват', 'NEG']]", "prompt_tokens": 1553, "completion_tokens": 810, "cost": 0.00369745, "provider": "xAI"}
+{"sent_id": 461, "raw": "[]", "prompt_tokens": 1595, "completion_tokens": 552, "cost": 0.00310495, "provider": "xAI"}
+{"sent_id": 463, "raw": "[['NULL', 'соглашение', 'слишком много уступок', 'NEG']]", "prompt_tokens": 956, "completion_tokens": 570, "cost": 0.0023512, "provider": "xAI"}
+{"sent_id": 462, "raw": "[['США', 'Ирана', 'нанести удары по ядерным объектам', 'NEG'], ['Израиля', 'Ирана', 'нанести удары по ядерным объектам', 'NEG']]", "prompt_tokens": 1332, "completion_tokens": 619, "cost": 0.0029437, "provider": "xAI"}
+{"sent_id": 468, "raw": "[['греческая оппозиция', 'правительству Алексиса Ципраса', 'голосование о выражении недоверия', 'NEG']]", "prompt_tokens": 1101, "completion_tokens": 355, "cost": 0.00199495, "provider": "xAI"}
+{"sent_id": 469, "raw": "[]", "prompt_tokens": 1116, "completion_tokens": 261, "cost": 0.0017787, "provider": "xAI"}
+{"sent_id": 466, "raw": "[['Греция', 'Республика Северная Македония', 'признать', 'POS']]", "prompt_tokens": 1383, "completion_tokens": 507, "cost": 0.00272745, "provider": "xAI"}
+{"sent_id": 477, "raw": "[]", "prompt_tokens": 1063, "completion_tokens": 264, "cost": 0.00171995, "provider": "xAI"}
+{"sent_id": 471, "raw": "[]", "prompt_tokens": 1596, "completion_tokens": 363, "cost": 0.0026337, "provider": "xAI"}
+{"sent_id": 467, "raw": "[['представители оппозиционной «Внутренней македонской революционной организации — Демократической партии македонского национального единства»', 'достигнутое соглашение', 'абсолютным поражением македонской дипломатии во всех отношениях', 'NEG']]", "prompt_tokens": 1414, "completion_tokens": 697, "cost": 0.0032412, "provider": "xAI"}
+{"sent_id": 475, "raw": "[]", "prompt_tokens": 1054, "completion_tokens": 420, "cost": 0.0020987, "provider": "xAI"}
+{"sent_id": 472, "raw": "[['Афины', 'Скопье', 'опасаются ... может предъявить территориальные претензии', 'NEG']]", "prompt_tokens": 1391, "completion_tokens": 551, "cost": 0.00284745, "provider": "xAI"}
+{"sent_id": 473, "raw": "[['Греция', 'Македонии', 'блокирует', 'NEG'], ['Греция', 'Македонии', 'позиции', 'NEG']]", "prompt_tokens": 1461, "completion_tokens": 666, "cost": 0.00322245, "provider": "xAI"}
+{"sent_id": 474, "raw": "[['Евросоюз', 'России', 'санкции', 'NEG']]", "prompt_tokens": 1142, "completion_tokens": 735, "cost": 0.0029962, "provider": "xAI"}
+{"sent_id": 476, "raw": "[['Совет Европейского Союза', 'России', 'продлил ... санкции против России', 'NEG'], ['NULL', 'России', 'незаконной аннексией', 'NEG']]", "prompt_tokens": 1417, "completion_tokens": 709, "cost": 0.00327495, "provider": "xAI"}
+{"sent_id": 470, "raw": "[['NULL', 'государства Македония', 'Спор вокруг наименования', 'NEG']]", "prompt_tokens": 1696, "completion_tokens": 786, "cost": 0.0038162, "provider": "xAI"}
+{"sent_id": 486, "raw": "[]", "prompt_tokens": 1474, "completion_tokens": 245, "cost": 0.0021862, "provider": "xAI"}
+{"sent_id": 465, "raw": "[['Афины', 'Скопье', 'достигли прогресса', 'POS'], ['Скопье', 'Афины', 'достигли прогресса', 'POS'], ['NULL', 'названии Македонии', 'спорному вопросу', 'NEG']]", "prompt_tokens": 1591, "completion_tokens": 1171, "cost": 0.00464745, "provider": "xAI"}
+{"sent_id": 478, "raw": "[['Европейский Союз', 'Москвы', 'введены в отношении Москвы', 'NEG']]", "prompt_tokens": 1182, "completion_tokens": 816, "cost": 0.0032487, "provider": "xAI"}
+{"sent_id": 483, "raw": "[]", "prompt_tokens": 1472, "completion_tokens": 535, "cost": 0.0029087, "provider": "xAI"}
+{"sent_id": 482, "raw": "[['ЕС', 'Украины', 'твердо привержен суверенитету и территориальной целостности', 'POS'], ['ЕС', 'Российской Федерацией', 'незаконной аннексии', 'NEG'], ['ЕС', 'Российской Федерацией', 'не признает', 'NEG'], ['ЕС', 'Российской Федерацией', 'осуждать это нарушение', 'NEG']]", "prompt_tokens": 1646, "completion_tokens": 914, "cost": 0.0040737, "provider": "xAI"}
+{"sent_id": 481, "raw": "[['NULL', 'компаниям в Крыму', 'запрет на экспорт отдельных товаров и технологий', 'NEG'], ['NULL', 'Крыму', 'запрет на экспорт ... в сфере транспорта, телекоммуникации и энергетики', 'NEG'], ['NULL', 'разведкой, освоением и добычей нефти, газа и полезных ископаемых', 'запрет', 'NEG']]", "prompt_tokens": 1382, "completion_tokens": 881, "cost": 0.0036612, "provider": "xAI"}
+{"sent_id": 491, "raw": "[]", "prompt_tokens": 1304, "completion_tokens": 336, "cost": 0.0022012, "provider": "xAI"}
+{"sent_id": 456, "raw": "[['NULL', 'Ирану', 'обвинения, адресованные Ирану', 'NEG'], ['NULL', 'Сирии', 'обвинения, адресованные Сирии', 'NEG'], ['Чавес', 'обвинения', 'надуманны', 'NEG']]", "prompt_tokens": 1353, "completion_tokens": 2292, "cost": 0.00715245, "provider": "xAI"}
+{"sent_id": 479, "raw": "[['NULL', 'России', 'Ограничительные меры против', 'NEG'], ['NULL', 'Крыма', 'запреты на импорт продукции из Крыма', 'NEG'], ['NULL', 'Севастополя', 'запреты на импорт продукции из', 'NEG'], ['NULL', 'Крым', 'запреты на ... инвестиции в Крым', 'NEG'], ['NULL', 'Севастополь', 'запреты на ... инвестиции в', 'NEG'], ['NULL', 'Крыму', 'не могут покупать недвижимость или объекты в Крыму', 'NEG'], ['NULL', 'крымские компании', 'не могут ... финансировать крымские компании', 'NEG']]", "prompt_tokens": 1538, "completion_tokens": 1014, "cost": 0.0041887, "provider": "xAI"}
