@@ -12,7 +12,11 @@
 - `scripts/score.py` — локальный P/R/F1 на размеченной валидации
 - `scripts/make_submission.py` — zip для CodaLab
 - `scripts/sanity.py` — проверка пайплайна
-- `predictions/`, `submissions/` — результаты прогонов (не в git)
+- `ruop/prompt.py`, `ruop/parse.py`, `ruop/align.py` — промпт Россяйкина, разбор ответа, точная и нечёткая привязка подстрок
+- `scripts/embed.py` — эмбеддинги SBERT для подбора примеров (кэш в `cache/`, не в git)
+- `scripts/run_llm.py` — few-shot прогон через OpenRouter, сырые ответы в `runs/`
+- `scripts/build_pred.py` — сырые ответы → предсказания и оценка
+- `runs/`, `predictions/`, `submissions/` — сырые ответы моделей, предсказания, архивы для CodaLab
 
 ## Использование
 
@@ -51,3 +55,10 @@ python3 scripts/make_submission.py predictions/my_test.jsonl
 Статьи: [Ватолин](https://dialogue-conf.org/wp-content/uploads/2025/04/VatolinA.104.pdf),
 [Россяйкин](https://dialogue-conf.org/wp-content/uploads/2025/04/RossyaykinP.105.pdf),
 [организаторы](https://arxiv.org/abs/2504.06947).
+
+## Наши результаты
+
+| Прогон | Сплит | Привязка | P | R | F1 |
+|---|---|---|---|---|---|
+| deepseek-chat, 12 похожих примеров из train (`ds_s1_val`) | валидация | точная | 0.368 | 0.306 | 0.334 |
+| то же | валидация | нечёткая | 0.357 | 0.349 | 0.353 |
