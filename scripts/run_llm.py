@@ -31,6 +31,7 @@ ap.add_argument("--random-shots", action="store_true")
 ap.add_argument("--limit", type=int, default=0)
 ap.add_argument("--temperature", type=float, default=0.1)
 ap.add_argument("--prompt", default="v1", choices=["v1", "v2"])
+ap.add_argument("--xfold", action="store_true", help="пул включает сам сплит: примеры берутся только из другой его половины")
 ap.add_argument("--suggest", default="", help="вторая ступень: имена прогонов через запятую, чьи ответы идут в промпт")
 ap.add_argument("--concurrency", type=int, default=16)
 args = ap.parse_args()
@@ -38,11 +39,17 @@ args = ap.parse_args()
 rows = load(args.split)
 if args.limit:
     rows = rows[:args.limit]
-pool, pool_emb = [], []
+pool, pool_emb, pool_fold = [], [], []
 for sp in args.pool.split(","):
-    pool += load(sp)
+    part = load(sp)
+    pool += part
     pool_emb.append(np.load(ROOT / "cache" / f"emb_{args.emb}_{sp}.npy"))
+    # половина сплита (подряд идущие предложения — из одних документов); -1 = чужой сплит
+    pool_fold += [(j >= len(part) // 2) if sp == args.split else -1 for j in range(len(part))]
 pool_emb = np.concatenate(pool_emb)
+pool_fold = np.array(pool_fold, dtype=int)
+assert args.xfold or args.split not in args.pool.split(","), "пул содержит оцениваемый сплит: нужен --xfold"
+n_split = len(load(args.split))
 q_emb = np.load(ROOT / "cache" / f"emb_{args.emb}_{args.split}.npy")
 rng = random.Random(0)
 
@@ -50,7 +57,10 @@ rng = random.Random(0)
 def shots_for(i):
     if args.random_shots:
         return rng.sample(pool, args.shots)
-    top = np.argsort(-(pool_emb @ q_emb[i]))[:args.shots]
+    sims = pool_emb @ q_emb[i]
+    if args.xfold:
+        sims = np.where(pool_fold == int(i >= n_split // 2), -np.inf, sims)
+    top = np.argsort(-sims)[:args.shots]
     return [pool[j] for j in top[::-1]]  # самое похожее — последним, ближе к целевому тексту
 
 
