@@ -66,6 +66,7 @@ python3 scripts/make_submission.py predictions/my_test.jsonl
 | deepseek-chat, 12 примеров из train (`ds_s1_test`) | test (Codabench) | точная | — | — | 0.35 |
 | то же | test (Codabench) | нечёткая | — | — | 0.3756 |
 | то же, пул примеров train + валидация (`ds_s1_test_poolval`) | test (Codabench) | нечёткая | — | — | 0.3818 |
+| то же + два правила про источник (`ds_v2_test_poolval`) | test (Codabench) | нечёткая | — | — | 0.3839 |
 
 Оценка на test: [Codabench 18622](https://www.codabench.org/competitions/18622/), фаза post-evaluation
 (старый CodaLab посылки больше не принимает). Платформа показывает F1 с двумя знаками.
