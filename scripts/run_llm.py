@@ -32,6 +32,10 @@ ap.add_argument("--limit", type=int, default=0)
 ap.add_argument("--temperature", type=float, default=0.1)
 ap.add_argument("--prompt", default="v1", choices=["v1", "v2"])
 ap.add_argument("--xfold", action="store_true", help="пул включает сам сплит: примеры берутся только из другой его половины")
+ap.add_argument("--no-reasoning", action="store_true", help="выключить рассуждение у моделей, которые его умеют")
+ap.add_argument("--reasoning-effort", default="", help="уровень рассуждения: minimal/low/medium/high")
+ap.add_argument("--max-tokens", type=int, default=512)
+ap.add_argument("--cheapest", action="store_true", help="просить OpenRouter выбирать самого дешёвого провайдера")
 ap.add_argument("--suggest", default="", help="вторая ступень: имена прогонов через запятую, чьи ответы идут в промпт")
 ap.add_argument("--concurrency", type=int, default=16)
 args = ap.parse_args()
@@ -92,9 +96,15 @@ cost = 0.0
 
 async def one(client, f, i, row):
     global cost
-    body = {"model": args.model, "temperature": args.temperature, "top_p": 0.9, "max_tokens": 512,
+    body = {"model": args.model, "temperature": args.temperature, "top_p": 0.9, "max_tokens": args.max_tokens,
             "usage": {"include": True},
             "messages": [{"role": "user", "content": prompt_for(i, row)}]}
+    if args.no_reasoning:
+        body["reasoning"] = {"enabled": False}
+    if args.cheapest:
+        body["provider"] = {"sort": "price"}
+    if args.reasoning_effort:
+        body["reasoning"] = {"effort": args.reasoning_effort}
     async with sem:
         for attempt in range(6):
             try:
@@ -106,7 +116,8 @@ async def one(client, f, i, row):
                     cost += u.get("cost") or 0
                     rec = {"sent_id": row["sent_id"], "raw": j["choices"][0]["message"]["content"],
                            "prompt_tokens": u.get("prompt_tokens"), "completion_tokens": u.get("completion_tokens"),
-                           "cost": u.get("cost"), "provider": j.get("provider")}
+                           "cost": u.get("cost"),
+                           "reasoning_tokens": (u.get("completion_tokens_details") or {}).get("reasoning_tokens"), "provider": j.get("provider")}
                     f.write(json.dumps(rec, ensure_ascii=False) + "\n")
                     f.flush()
                     return
