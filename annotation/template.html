@@ -1,0 +1,316 @@
+<title>AUTHOR или NULL</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=PT+Serif:ital@0;1&display=swap">
+<style>
+/* Раскладка: одна колонка-верстак; предложение — газетной антиквой, всё служебное — гротеском и моноширинным. */
+:root {
+  --bg: #f3f5f7; --surface: #ffffff; --fg: #17212b; --muted: #5d6b79; --line: #d6dde4;
+  --accent: #0f6b74; --accent-fg: #ffffff; --accent-soft: #dff0f1;
+  --tgt: #b85c00; --tgt-bg: #ffe9c9; --exp: #5b3fb8; --exp-bg: #e9e2ff;
+  --agent: #0f6b74; --patient: #a8431f; --other: #7a8794; --empty: #e3e8ed;
+  --pos: #1f7a3d; --neg: #b3261e;
+  --sans: "Golos Text", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "PT Serif", Georgia, "Times New Roman", serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #11171d; --surface: #19222b; --fg: #e6edf3; --muted: #93a1af; --line: #2c3945;
+  --accent: #4fc3cd; --accent-fg: #06272a; --accent-soft: #123a3f;
+  --tgt: #ffb454; --tgt-bg: #4a3310; --exp: #b9a4ff; --exp-bg: #332a5c;
+  --agent: #4fc3cd; --patient: #ff9a73; --other: #8c9aa8; --empty: #26323d;
+  --pos: #6fd08c; --neg: #ff8a80; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #11171d; --surface: #19222b; --fg: #e6edf3; --muted: #93a1af; --line: #2c3945;
+  --accent: #4fc3cd; --accent-fg: #06272a; --accent-soft: #123a3f;
+  --tgt: #ffb454; --tgt-bg: #4a3310; --exp: #b9a4ff; --exp-bg: #332a5c;
+  --agent: #4fc3cd; --patient: #ff9a73; --other: #8c9aa8; --empty: #26323d;
+  --pos: #6fd08c; --neg: #ff8a80; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.5;
+  padding-block: 20px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.an-wrap { max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; }
+.an-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; }
+.an-head h1 { font-size: 22px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+.an-head h1 code { font-family: var(--mono); font-size: 0.86em; font-weight: 500; }
+.an-sub { color: var(--muted); margin: 0; flex-basis: 100%; max-width: 62ch; }
+.an-tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); }
+.an-tab { font: inherit; font-weight: 500; color: var(--muted); background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px; margin-bottom: -1px; cursor: pointer; }
+.an-tab[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
+.an-progress { display: flex; align-items: center; gap: 12px; font-family: var(--mono); font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.an-bar { flex: 1; height: 6px; background: var(--empty); border-radius: 3px; overflow: hidden; }
+.an-bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+.an-status { font-size: 13px; color: var(--muted); min-height: 1.5em; }
+.an-status.warn { color: var(--patient); }
+.an-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px; display: flex; flex-direction: column; gap: 16px; }
+.an-meta { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.an-chip { font-family: var(--mono); font-size: 12px; font-weight: 500; padding: 1px 8px; border-radius: 999px; border: 1px solid currentColor; }
+.an-chip.pos { color: var(--pos); } .an-chip.neg { color: var(--neg); }
+.an-sent { font-family: var(--serif); font-size: 20px; line-height: 1.6; margin: 0; overflow-wrap: anywhere; }
+mark.t { background: var(--tgt-bg); box-shadow: inset 0 -2px 0 var(--tgt); border-radius: 2px; padding: 1px 0; }
+mark.x { background: var(--exp-bg); border-radius: 2px; padding: 1px 0; }
+mark.t.x { background: linear-gradient(var(--tgt-bg), var(--tgt-bg)) , var(--exp-bg); box-shadow: inset 0 -2px 0 var(--tgt), inset 0 2px 0 var(--exp); }
+.an-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); }
+.an-legend b { font-weight: 500; padding: 0 5px; border-radius: 2px; color: var(--fg); }
+.an-legend .lt { background: var(--tgt-bg); box-shadow: inset 0 -2px 0 var(--tgt); } .an-legend .lx { background: var(--exp-bg); }
+.an-q { font-weight: 600; margin: 0; }
+.an-opts { display: grid; gap: 8px; }
+.an-opt { font: inherit; text-align: left; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; cursor: pointer; display: grid; grid-template-columns: 26px 1fr; gap: 2px 10px; align-items: baseline; }
+.an-opt:hover { border-color: var(--muted); }
+.an-opt kbd { font-family: var(--mono); font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; text-align: center; padding: 0 0 1px; grid-row: span 2; align-self: start; margin-top: 2px; }
+.an-opt strong { font-weight: 600; }
+.an-opt span { color: var(--muted); font-size: 13px; grid-column: 2; }
+.an-opt[aria-pressed="true"] { border-color: var(--role); box-shadow: inset 4px 0 0 var(--role); background: var(--accent-soft); }
+.an-opt[data-role="agent"] { --role: var(--agent); } .an-opt[data-role="patient"] { --role: var(--patient); } .an-opt[data-role="other"] { --role: var(--other); }
+.an-opt[data-role="patient"][aria-pressed="true"], .an-opt[data-role="other"][aria-pressed="true"] { background: var(--surface); }
+.an-note { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; width: 100%; box-sizing: border-box; resize: vertical; min-height: 40px; }
+.an-nav { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: space-between; }
+.an-btn { font: inherit; font-weight: 500; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 14px; cursor: pointer; }
+.an-btn:hover { border-color: var(--muted); } .an-btn:disabled { opacity: .45; cursor: default; }
+.an-btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+.an-check { display: flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted); }
+.an-keys { font-size: 12.5px; color: var(--muted); } .an-keys kbd { font-family: var(--mono); border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; }
+.an-map { display: grid; grid-template-columns: repeat(auto-fill, minmax(18px, 1fr)); gap: 4px; }
+.an-dot { height: 18px; border: 0; border-radius: 3px; background: var(--empty); cursor: pointer; padding: 0; }
+.an-dot.agent { background: var(--agent); } .an-dot.patient { background: var(--patient); } .an-dot.other { background: var(--other); }
+.an-dot.cur { outline: 2px solid var(--fg); outline-offset: 1px; }
+.an-maplegend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 12.5px; color: var(--muted); }
+.an-maplegend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+:is(.an-tab, .an-opt, .an-btn, .an-dot, .an-note):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.an-h2 { font-size: 16px; font-weight: 600; margin: 0; }
+.an-big { font-size: 17px; margin: 0; max-width: 62ch; } .an-big b { font-family: var(--mono); font-weight: 500; }
+.an-tablewrap { overflow-x: auto; }
+table.an-t { border-collapse: collapse; font-variant-numeric: tabular-nums; min-width: 100%; }
+.an-t th, .an-t td { padding: 7px 12px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+.an-t th:first-child, .an-t td:first-child { text-align: left; white-space: normal; }
+.an-t thead th { font-weight: 500; color: var(--muted); font-size: 13px; } .an-t td.hit { font-weight: 600; color: var(--accent); }
+.an-list { display: flex; flex-direction: column; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.an-list li { border-left: 3px solid var(--line); padding: 2px 0 2px 12px; }
+.an-list p { margin: 0; font-family: var(--serif); font-size: 16px; overflow-wrap: anywhere; }
+.an-list small { font-family: var(--mono); font-size: 12px; color: var(--muted); display: block; }
+.an-list .n { font-family: var(--sans); font-size: 13.5px; color: var(--muted); font-style: italic; }
+.an-empty { color: var(--muted); margin: 0; }
+@media (max-width: 480px) { .an-card { padding: 16px; } .an-sent { font-size: 18px; } }
+@media (prefers-reduced-motion: reduce) { .an-bar i { transition: none; } }
+</style>
+
+<div class="an-wrap">
+  <header class="an-head">
+    <h1><code>AUTHOR</code> или <code>NULL</code></h1>
+    <p class="an-sub">Проверка гипотезы о разметке RuOpinionNE-2024: источник помечен как автор, когда объект сам действует или несёт признак, и как пустой, когда объект претерпевает действие неназванного участника.</p>
+  </header>
+  <nav class="an-tabs" role="tablist">
+    <button class="an-tab" id="tab-annotate" role="tab" data-view="annotate">Разметка</button>
+    <button class="an-tab" id="tab-results" role="tab" data-view="results">Итоги</button>
+  </nav>
+  <div class="an-progress"><span id="an-count">0 / 0</span><div class="an-bar"><i id="an-barfill"></i></div></div>
+  <div class="an-status" id="an-status" role="status">Загружаю сохранённые ответы…</div>
+
+  <section id="view-annotate" class="an-wrap">
+    <article class="an-card">
+      <div class="an-meta"><span id="an-pos"></span><span class="an-chip" id="an-pol"></span><span id="an-src"></span></div>
+      <p class="an-sent" id="an-sent" lang="ru"></p>
+      <div class="an-legend"><span><b class="lt">объект мнения</b></span><span><b class="lx">оценочное выражение</b></span></div>
+      <p class="an-q">Какую роль играет объект по отношению к оценочному выражению?</p>
+      <div class="an-opts" id="an-opts">
+        <button class="an-opt" id="opt-agent" data-role="agent" aria-pressed="false"><kbd>1</kbd><strong>Деятель или носитель признака</strong><span>Объект сам совершает оцениваемое действие или обладает качеством: «не признал вины», «известные писатели».</span></button>
+        <button class="an-opt" id="opt-patient" data-role="patient" aria-pressed="false"><kbd>2</kbd><strong>Претерпевает действие</strong><span>Над объектом действует кто-то, не названный в предложении: «приговорён», «будут судить», «предъявили обвинения».</span></button>
+        <button class="an-opt" id="opt-other" data-role="other" aria-pressed="false"><kbd>3</kbd><strong>Другое или неясно</strong><span>Ни то ни другое. Напишите в заметке, что здесь происходит.</span></button>
+      </div>
+      <textarea class="an-note" id="an-note" rows="1" placeholder="Заметка: что здесь на самом деле, почему случай спорный"></textarea>
+      <div class="an-nav">
+        <div style="display:flex;gap:8px"><button class="an-btn" id="an-prev">← Назад</button><button class="an-btn primary" id="an-next">Дальше →</button><button class="an-btn" id="an-todo">К неразмеченному</button></div>
+        <label class="an-check"><input type="checkbox" id="an-auto"> переходить дальше после ответа</label>
+      </div>
+      <div class="an-keys"><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> ответ · <kbd>←</kbd> <kbd>→</kbd> переход · <kbd>N</kbd> заметка</div>
+    </article>
+    <div class="an-map" id="an-map" aria-label="Карта примеров"></div>
+    <div class="an-maplegend"><span><i style="background:var(--agent)"></i>деятель</span><span><i style="background:var(--patient)"></i>претерпевает</span><span><i style="background:var(--other)"></i>другое</span><span><i style="background:var(--empty)"></i>не размечено</span></div>
+  </section>
+
+  <section id="view-results" class="an-wrap" hidden>
+    <p class="an-big" id="res-summary"></p>
+    <h2 class="an-h2">Ваш ответ против разметки корпуса</h2>
+    <div class="an-tablewrap"><table class="an-t"><thead><tr><th>Ваш ответ</th><th>в корпусе AUTHOR</th><th>в корпусе NULL</th><th>всего</th></tr></thead><tbody id="res-table"></tbody></table></div>
+    <h2 class="an-h2">Против гипотезы</h2>
+    <ul class="an-list" id="res-against"></ul>
+    <h2 class="an-h2">Другое или неясно</h2>
+    <ul class="an-list" id="res-other"></ul>
+  </section>
+</div>
+
+<script>
+const ITEMS = /*ITEMS*/[];
+const ROLE = { agent: "деятель", patient: "претерпевает", other: "другое" };
+const $ = (id) => document.getElementById(id);
+const answers = {};            // id -> {role, note}
+let idx = 0, db = null, uid = null, noteTimer = null;
+
+function segments(it) {
+  const cuts = new Set([0, it.text.length, it.t[0], it.t[1], it.x[0], it.x[1]]);
+  const pts = [...cuts].sort((a, b) => a - b), out = [];
+  for (let i = 0; i < pts.length - 1; i++) {
+    const a = pts[i], b = pts[i + 1];
+    out.push({ s: it.text.slice(a, b), t: a >= it.t[0] && b <= it.t[1], x: a >= it.x[0] && b <= it.x[1] });
+  }
+  return out;
+}
+function fillSentence(el, it) {
+  el.textContent = "";
+  for (const g of segments(it)) {
+    if (!g.t && !g.x) { el.append(g.s); continue; }
+    const m = document.createElement("mark");
+    m.style.color = "inherit";
+    m.className = (g.t ? "t " : "") + (g.x ? "x" : "");
+    m.textContent = g.s;
+    el.append(m);
+  }
+}
+function doneCount() { return ITEMS.filter((it) => answers[it.id] && answers[it.id].role).length; }
+
+function renderItem() {
+  const it = ITEMS[idx], a = answers[it.id] || {};
+  $("an-pos").textContent = "пример " + (idx + 1) + " из " + ITEMS.length;
+  $("an-pol").textContent = it.pol === "POS" ? "POS · позитив" : "NEG · негатив";
+  $("an-pol").className = "an-chip " + (it.pol === "POS" ? "pos" : "neg");
+  $("an-src").textContent = it.id;
+  fillSentence($("an-sent"), it);
+  for (const b of $("an-opts").children) b.setAttribute("aria-pressed", String(b.dataset.role === a.role));
+  if (document.activeElement !== $("an-note")) $("an-note").value = a.note || "";
+  $("an-prev").disabled = idx === 0;
+  $("an-next").disabled = idx === ITEMS.length - 1;
+}
+function renderProgress() {
+  const n = doneCount();
+  $("an-count").textContent = n + " / " + ITEMS.length;
+  $("an-barfill").style.width = (100 * n / ITEMS.length) + "%";
+  const dots = $("an-map").children;
+  ITEMS.forEach((it, i) => {
+    const r = (answers[it.id] || {}).role;
+    dots[i].className = "an-dot" + (r ? " " + r : "") + (i === idx ? " cur" : "");
+  });
+}
+function go(i) { flushNote(); idx = Math.max(0, Math.min(ITEMS.length - 1, i)); renderItem(); renderProgress(); }
+function nextTodo() {
+  for (let k = 1; k <= ITEMS.length; k++) {
+    const j = (idx + k) % ITEMS.length;
+    if (!(answers[ITEMS[j].id] || {}).role) return go(j);
+  }
+}
+async function save(id) {
+  const a = answers[id];
+  if (!db || !a) return;
+  try {
+    await db.doc("labels/" + id).set({ role: a.role || "", note: a.note || "", by: uid || "", at: new Date().toISOString() });
+    setStatus("Сохранено · " + new Date().toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" }));
+  } catch (e) { setStatus("Не удалось сохранить ответ: " + ((e && e.message) || "нет доступа на запись") + ".", true); }
+}
+function choose(role) {
+  const it = ITEMS[idx];
+  answers[it.id] = Object.assign({}, answers[it.id], { role });
+  renderItem(); renderProgress(); save(it.id);
+  if ($("an-auto").checked && role !== "other") setTimeout(() => { if (ITEMS[idx] === it) nextTodo(); }, 220);
+  if (role === "other") $("an-note").focus();
+}
+function flushNote() {
+  if (!noteTimer) return;
+  clearTimeout(noteTimer); noteTimer = null;
+  save(ITEMS[idx].id);
+}
+function setStatus(msg, warn) { $("an-status").textContent = msg; $("an-status").classList.toggle("warn", !!warn); }
+
+function li(it, a) {
+  const el = document.createElement("li"), p = document.createElement("p"), s = document.createElement("small");
+  s.textContent = it.id + " · в корпусе " + it.gold + " · ваш ответ: " + ROLE[a.role] + " · " + it.pol;
+  fillSentence(p, it); el.append(s, p);
+  if (a.note) { const n = document.createElement("div"); n.className = "n"; n.textContent = a.note; el.append(n); }
+  return el;
+}
+function renderResults() {
+  const c = { agent: { AUTHOR: 0, NULL: 0 }, patient: { AUTHOR: 0, NULL: 0 }, other: { AUTHOR: 0, NULL: 0 } };
+  const against = [], other = [];
+  for (const it of ITEMS) {
+    const a = answers[it.id];
+    if (!a || !a.role) continue;
+    c[a.role][it.gold]++;
+    if (a.role === "other") other.push(li(it, a));
+    else if ((a.role === "agent") !== (it.gold === "AUTHOR")) against.push(li(it, a));
+  }
+  const tb = $("res-table"); tb.textContent = "";
+  for (const r of ["agent", "patient", "other"]) {
+    const tr = document.createElement("tr");
+    const cells = [ROLE[r], c[r].AUTHOR, c[r].NULL, c[r].AUTHOR + c[r].NULL];
+    cells.forEach((v, k) => { const td = document.createElement("td"); td.textContent = v;
+      if ((r === "agent" && k === 1) || (r === "patient" && k === 2)) td.className = "hit"; tr.append(td); });
+    tb.append(tr);
+  }
+  const hit = c.agent.AUTHOR + c.patient.NULL, decided = hit + c.agent.NULL + c.patient.AUTHOR, oth = c.other.AUTHOR + c.other.NULL;
+  const sum = $("res-summary"); sum.textContent = "";
+  if (!decided && !oth) sum.textContent = "Пока нет ни одного ответа. Разметка корпуса показывается только для уже размеченных примеров.";
+  else {
+    const b = document.createElement("b");
+    b.textContent = decided ? hit + " из " + decided + " (" + Math.round(100 * hit / decided) + "%)" : "—";
+    sum.append("Гипотеза совпала с разметкой корпуса в ", b, " случаев, где роль определена. Ещё " + oth + " отнесено к «другому». Случайное угадывание дало бы около 50%.");
+  }
+  const fill = (id, arr, empty) => { const ul = $(id); ul.textContent = "";
+    if (arr.length) ul.append(...arr); else { const p = document.createElement("p"); p.className = "an-empty"; p.textContent = empty; ul.append(p); } };
+  fill("res-against", against, "Таких примеров пока нет.");
+  fill("res-other", other, "Таких примеров пока нет.");
+}
+function showView() {
+  const v = location.hash === "#results" ? "results" : "annotate";
+  $("view-annotate").hidden = v !== "annotate"; $("view-results").hidden = v !== "results";
+  for (const t of document.querySelectorAll(".an-tab")) t.setAttribute("aria-selected", String(t.dataset.view === v));
+  if (v === "results") renderResults();
+}
+
+// разметка страницы
+ITEMS.forEach((it, i) => { const d = document.createElement("button"); d.className = "an-dot"; d.title = "пример " + (i + 1);
+  d.setAttribute("aria-label", "пример " + (i + 1)); d.addEventListener("click", () => go(i)); $("an-map").append(d); });
+for (const b of $("an-opts").children) b.addEventListener("click", () => choose(b.dataset.role));
+$("an-prev").addEventListener("click", () => go(idx - 1));
+$("an-next").addEventListener("click", () => go(idx + 1));
+$("an-todo").addEventListener("click", nextTodo);
+$("an-note").addEventListener("input", () => {
+  const it = ITEMS[idx];
+  answers[it.id] = Object.assign({}, answers[it.id], { note: $("an-note").value });
+  clearTimeout(noteTimer); noteTimer = setTimeout(() => { noteTimer = null; save(it.id); }, 900);
+});
+$("an-note").addEventListener("blur", flushNote);
+for (const t of document.querySelectorAll(".an-tab")) t.addEventListener("click", () => { location.hash = t.dataset.view === "results" ? "results" : ""; showView(); });
+window.addEventListener("hashchange", showView);
+document.addEventListener("keydown", (e) => {
+  if (e.target === $("an-note")) { if (e.key === "Escape") $("an-note").blur(); return; }
+  if (e.metaKey || e.ctrlKey || e.altKey || !$("view-results").hidden) return;
+  if (e.key === "1" || e.key === "2" || e.key === "3") { e.preventDefault(); choose({ 1: "agent", 2: "patient", 3: "other" }[e.key]); }
+  else if (e.key === "ArrowRight") go(idx + 1); else if (e.key === "ArrowLeft") go(idx - 1);
+  else if (e.key === "n" || e.key === "N" || e.key === "т" || e.key === "Т") { e.preventDefault(); $("an-note").focus(); }
+});
+try { $("an-auto").checked = localStorage.getItem("an-auto") !== "0"; } catch (e) { $("an-auto").checked = true; }
+$("an-auto").addEventListener("change", () => { try { localStorage.setItem("an-auto", $("an-auto").checked ? "1" : "0"); } catch (e) {} });
+
+renderItem(); renderProgress(); showView();
+
+(async () => {
+  const use = window.claude && window.claude.use;
+  if (!use) { setStatus("Хранилище недоступно: ответы останутся только на этой странице, пока она открыта.", true); return; }
+  const [d, user] = await Promise.all([window.claude.use("db"), window.claude.use("user")]);
+  if (!d) { setStatus("Хранилище недоступно: войдите в claude.ai, иначе ответы не сохранятся.", true); return; }
+  db = d;
+  try { uid = user ? await user.id() : null; } catch (e) {}
+  let first = true;
+  db.collection("labels").limit(1000).onSnapshot((snap) => {
+    for (const doc of snap.docs) {
+      const v = doc.data() || {};
+      if (doc.metadata && doc.metadata.hasPendingWrites) continue;
+      if (noteTimer && ITEMS[idx].id === doc.id) continue;
+      answers[doc.id] = { role: v.role || "", note: v.note || "" };
+    }
+    if (first) {
+      first = false;
+      const n = doneCount();
+      setStatus(n ? "Загружено ответов: " + n + ". Ответы сохраняются сразу." : "Ответы сохраняются сразу, можно закрыть страницу и продолжить позже.");
+      if (n && n < ITEMS.length && (answers[ITEMS[idx].id] || {}).role) nextTodo();
+    }
+    renderItem(); renderProgress(); if (!$("view-results").hidden) renderResults();
+  }, (e) => setStatus("Не удалось прочитать сохранённые ответы: " + ((e && e.message) || "ошибка") + ".", true));
+})();
+</script>
