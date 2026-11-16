@@ -69,6 +69,10 @@ python3 scripts/make_submission.py predictions/my_test.jsonl
 | то же | test (Codabench) | нечёткая | — | — | 0.3756 |
 | то же, пул примеров train + валидация (`ds_s1_test_poolval`) | test (Codabench) | нечёткая | — | — | 0.3818 |
 | то же + два правила про источник (`ds_v2_test_poolval`) | test (Codabench) | нечёткая | — | — | 0.3839 |
+| голосование 2 из 3: GLM-5.3, DeepSeek V3, DeepSeek V4.1 Flash (`vote3`) | валидация | нечёткая | 0.439 | 0.409 | 0.424 |
+| то же + DeepSeek V3 с 24 примерами, 2 из 4 (`vote4`) | валидация | нечёткая | 0.413 | 0.454 | 0.433 |
+| `vote3_test` | test (Codabench) | нечёткая | — | — | 0.42 |
+| `vote4_test` | test (Codabench) | нечёткая | — | — | 0.43 |
 
 Оценка на test: [Codabench 18622](https://www.codabench.org/competitions/18622/), фаза post-evaluation
 (старый CodaLab посылки больше не принимает). Платформа показывает F1 с двумя знаками.
