@@ -30,6 +30,7 @@ ap.add_argument("--emb", default="sbert_large_nlu_ru")
 ap.add_argument("--random-shots", action="store_true")
 ap.add_argument("--limit", type=int, default=0)
 ap.add_argument("--temperature", type=float, default=0.1)
+ap.add_argument("--prompt", default="v1", choices=["v1", "v2"])
 ap.add_argument("--suggest", default="", help="вторая ступень: имена прогонов через запятую, чьи ответы идут в промпт")
 ap.add_argument("--concurrency", type=int, default=16)
 args = ap.parse_args()
@@ -63,7 +64,7 @@ for name in filter(None, args.suggest.split(",")):
 def prompt_for(i, row):
     if suggest:
         return build_prompt_stage2(row["text"], shots_for(i), suggest[row["sent_id"]])
-    return build_prompt(row["text"], shots_for(i))
+    return build_prompt(row["text"], shots_for(i), args.prompt)
 
 
 out_path = ROOT / "runs" / f"{args.name}.jsonl"

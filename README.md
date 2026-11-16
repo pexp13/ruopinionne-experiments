@@ -62,6 +62,7 @@ python3 scripts/make_submission.py predictions/my_test.jsonl
 |---|---|---|---|---|---|
 | deepseek-chat, 12 похожих примеров из train (`ds_s1_val`) | валидация | точная | 0.368 | 0.306 | 0.334 |
 | то же | валидация | нечёткая | 0.357 | 0.349 | 0.353 |
+| то же + два правила про источник в инструкции (`ds_v2_val`) | валидация | нечёткая | 0.383 | 0.371 | 0.377 |
 | deepseek-chat, 12 примеров из train (`ds_s1_test`) | test (Codabench) | точная | — | — | 0.35 |
 | то же | test (Codabench) | нечёткая | — | — | 0.3756 |
 | то же, пул примеров train + валидация (`ds_s1_test_poolval`) | test (Codabench) | нечёткая | — | — | 0.3818 |
